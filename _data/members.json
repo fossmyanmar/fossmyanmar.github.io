@@ -1,0 +1,43 @@
+[
+{  
+    "social": {
+        "twitter": "kokoye2007",
+        "link": "http://ubuntu-mm.net",
+        "mail": "kokoye2007@gmail.com",
+        "facebook": "kokoye2007",
+        "gplus": "+KoKoYe",
+        "github": "kokoye2007"
+    },
+    "imgName": "kokoye2007.jpg",
+    "name": "KoKoYe",
+    "position"  : "Team Leader",
+},
+{
+    "social": {
+        "twitter": "kokoye2007",
+        "link": "http://ubuntu-mm.net",
+        "mail": "kokoye2007@gmail.com",
+        "facebook": "kokoye2007",
+        "gplus": "+KoKoYe",
+        "github": "kokoye2007"
+    },
+    "imgName": "chitkokowin.jpg",
+    "name": "Chit Ko Ko Win",
+    "position"  : "Member",
+
+},
+{
+    "social": {
+        "twitter": "kokoye2007",
+        "link": "http://ubuntu-mm.net",
+        "mail": "kokoye2007@gmail.com",
+        "facebook": "kokoye2007",
+        "gplus": "+KoKoYe",
+        "github": "kokoye2007"
+    },
+    "imgName": "ethan.jpg",
+    "name": "Ethan",
+    "position"  : "Member",
+},
+
+]
