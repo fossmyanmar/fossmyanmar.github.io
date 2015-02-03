@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 {  
     "social": {
@@ -41,3 +42,263 @@
 },
 
 ]
+=======
+[{
+	"social": {
+		"twitter": "hpdang",
+		"link": "http://blog.fossasia.org/",
+		"mail": "hp@fossasia.org",
+		"facebook": "hpdang",
+		"gplus": "+104694870145426083517",
+		"github": "hpdang"
+	},
+	"imgName": "HongPhucDang.jpg",
+	"name": "Hong Phuc"
+},
+
+{
+	"social": {
+		"github": "mariobehling",
+		"twitter": "mariobehling",
+		"facebook": "mariobehling",
+		"link": "http://mariobehling.de/"
+	},
+	"imgName": "mariobehling.jpg",
+	"name": "Mario Behling"
+},
+
+{
+	"social": {
+		"github": "RoonyH",
+		"twitter": "aruna_herath",
+		"facebook": "aruna.herath99",
+		"gplus": "+ArunaHerath",
+		"mail": "arunabherath@gmail.com",
+		"link": "http://en.gravatar.com/arunabherath"
+	},
+	"imgName": "arunaherath.jpg",
+	"name": "Aruna Herath"
+},
+
+{
+	"social": {
+		"github": "birajkarmakar",
+		"twitter": "birajkarmakar",
+		"facebook": "biraj.karmakar",
+		"mail": "brnet00@gmail.com",
+		"link": "http://birajkarmakar.wordpress.com/"
+	},
+	"imgName": "biraj.jpg",
+	"name": "Biraj Karmakar"
+},
+
+{
+	"social": {
+		"github": "andunslg",
+		"twitter": "andunslg",
+		"mail": "andunslg@gmail.com",
+		"link": "http://www.insightforfuture.blogspot.com/"
+	},
+	"imgName": "andunslg.jpg",
+	"name": "Andun S.L. Gunawardana"
+},
+
+{
+	"social": {
+		"github": "kokoye2007",
+		"twitter": "kokoye2007",
+		"facebook": "kokoye2007",
+		"mail": "kokoye2007@gmail.com",
+		"link": "http://ubuntu-mm.net/"
+	},
+	"imgName": "kokoye2007.png",
+	"name": "Ko Ko Ye`"
+},
+
+{
+	"social": {
+		"link": "https://blog.andi95.de",
+		"github": "andibraeu",
+		"facebook": "eddie.vonaltenberga",
+		"twitter": "evaltenberga",
+		"gplus": "113244991896061765096"
+	},
+	"imgName": "andreasbraeu.jpg",
+	"name": "Andreas Bräu"
+},
+
+{
+	"social": {
+		"github": "agonarch",
+		"twitter": "agonarch",
+		"link": "https://arebentisch.wordpress.com/"
+	},
+	"imgName": "andrerebentisch.png",
+	"name": "Andre Rebentisch"
+},
+
+{
+	"social": {
+		"mail": "callkalpa@gmail.com",
+		"link": "http://kalpapathum.blogspot.com",
+		"github": "callkalpa",
+		"twitter": "callkalpa",
+		"facebook": "callkalpa",
+		"gplus": "+KalpaWelivitigoda"
+	},
+	"imgName": "kalpa.jpg",
+	"name": "Kalpa Welivitigoda"
+},
+
+{
+	"social": {
+		"twitter": "_gnovi",
+		"facebook": "praveenpatil103",
+		"link": "https://canvasoflife.wordpress.com/"
+	},
+	"imgName": "praveenpatil.png",
+	"name": "Praveen Patil"
+},
+
+{
+	"social": {
+		"github": "sandareka",
+		"link": "http://sandaw89.blogspot.com/",
+		"twitter": "wsanda89",
+		"facebook": "sandareka.wickramanayake"
+	},
+	"imgName": "Wickramanayake.jpg",
+	"name": "Sandareka Wickramanayake"
+},
+
+{
+	"social": {
+		"mail": "mcheng.work@gmail.com",
+		"link": "https://www.linkedin.com/in/miccheng",
+		"link2": "http://coderkungfu.com",
+		"github": "miccheng",
+		"twitter": "coderkungfu",
+		"facebook": "miccheng"
+	},
+	"imgName": "MichaelCheng.jpg",
+	"name": "Michael Cheng"
+},
+
+{
+	"social": {
+		"mail": "uzadow@libavg.de",
+		"link": "https://www.libavg.de/site/",
+		"github": "uzadow"
+	},
+	"imgName": "Ulrich von Zadow.jpg",
+	"name": "Ulrich von Zadow"
+},
+
+{
+	"social": {
+		"mail": "andres.colubri@gmail.com",
+		"link": "http://andrescolubri.net/",
+		"link2": "https://codeanticode.wordpress.com/",
+		"github": "codeanticode",
+		"twitter": "codeanticode",
+		"facebook": "andres.colubri"
+	},
+	"imgName": "codeanticode.jpg",
+	"name": "Andres Colubri"
+},
+
+{
+	"social": {
+		"twitter": "h_suwono",
+		"link": "http://astroiseur.tiddlyspace.com/",
+		"facebook": "handoko.suwono",
+		"gplus": "112455413789709299868"
+	},
+	"imgName": "handokosuwono.jpg",
+	"name": "Handoko Suwono"
+},
+
+{
+	"social": {
+		"link": "http://societyserver.org/mbaehr/",
+		"github": "embee"
+	},
+	"imgName": "eMBee.png",
+	"name": "eMBee"
+},
+
+{
+	"social": {
+		"mail": "harshvd95@gmail.com",
+		"github": "royalharsh",
+		"twitter": "royalharsh95",
+		"link": "https://royalharsh95.wordpress.com/",
+		"facebook": "royalharsh95",
+		"gplus": "+HarshVardhanroyalharsh95"
+	},
+	"imgName": "royalharsh95.jpg",
+	"name": "Harsh Vardhan"
+},
+
+{
+	"social": {
+		"mail": "vanhonit@gmail.com",
+		"link": "https://honnguyenvan.wordpress.com/",
+		"link2": "http://fedoraproject.org/wiki/User:Vanhonit",
+		"github": "vanhonit",
+		"twitter": "vanhonit"
+	},
+	"imgName": "vanhonit.jpg",
+	"name": "Hon Nguyen"
+},
+
+{
+	"social": {
+		"mail": "tonghuix@fedoraproject.org",
+		"link": "https://tonghuix.io",
+		"link2": "http://tonghuix.blogspot.tw/",
+		"link3": "https://fedoraproject.org/wiki/User:Tonghuix",
+		"twitter": "tonghuix",
+		"facebook": "tonghuix"
+	},
+	"imgName": "tonghuix.jpg",
+	"name": "Tong Hui"
+},
+
+{
+	"social": {
+		"mail": "mitar.homepage@tnode.com",
+		"link": "http://mitar.tnode.com/",
+		"github": "mitar",
+		"twitter": "mitar_m",
+		"facebook": "mmitar",
+		"gplus": "117582050952370300162"
+	},
+	"imgName": "mitar.jpg",
+	"name": "Mi Tar"
+},
+
+{
+	"social": {
+		"twitter": "vuhung",
+		"mail": "vuhung16plus@gmail.com",
+		"link": "http://nguyen-vu-hung.blogspot.com/",
+		"facebook": "nguyenvuhung"
+	},
+	"imgName": "NguyenVuHung.jpg",
+	"name": "Nguyen Vu Hung"
+},
+
+{
+	"social": {
+		"link": "udithawijerathna",
+		"twitter": "udinnet",
+		"github": "udinnet",
+		"gplus": "+UdithaBandaraWijerathna",
+		"facebook": "uditha.wijerathna"
+	},
+	"imgName": "udith.png",
+	"name": "Uditha Bandara Wijerathna"
+}
+]
+>>>>>>> 9aa1006257d3606a37ea2b0155ee04b61d083b68
