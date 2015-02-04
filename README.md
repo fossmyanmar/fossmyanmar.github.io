@@ -3,7 +3,7 @@
 ** Add Member
 Update your information in "_data/members.json" 
 
-```
+```javascript
 {  
     "social": {
         "twitter": "kokoye2007",
@@ -34,7 +34,7 @@ Add member image into "images/members/{}"
 ** Add Events 
 Update new Json Array Object into json file (_data/events_fedora.json ) as following datas
 
-```
+```javascript
 {
 	date_begin: "2012-08-18 07:30:00",
 	description: "Ubuntu 12.04 LTS Introduction Ubuntu MM 12.04 LTS DVD Distribution Android TV Ubuntu on Mini-PC Myanmar/Shan/Pao/Mon Keyboard and Font Gimp, InkScape, Scrbus, Libre Office, Alien Arena, 0.a.d, Handbrake, Gtk-Recorder, HUD, Unity and Lens, etc ...",
