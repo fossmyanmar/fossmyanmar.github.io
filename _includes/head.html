@@ -1,12 +1,18 @@
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <meta charset="utf-8">
+    <title>FOSS MYANMAR</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+<!-- 
+Flex Template 
+http://www.templatemo.com/preview/templatemo_406_flex 
+-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/templatemo_misc.css">
+<link rel="stylesheet" href="css/templatemo_style.css">
+<script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 </head>
