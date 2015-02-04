@@ -22,7 +22,7 @@ Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_
 ```
 
 
-### Image Upload 
+### Add Member Picture
 
 (၁)ဓါတ္ပံုဆိုဒ္မွာ  600X600 pixel ျဖစ္ရပါမယ္။
 
@@ -54,5 +54,6 @@ Event အသစ္တစ္ခုထည့္ဖုိ့က ေအာက္က 
 	name: "Ubuntu PRP - MICT Rom 205"
 },
 ```
+### Add Event Photo
 
 Event ဓါတ္ပံုထည့္ဖုိ့ အတြက္က images/events ထဲက (fedora/uformm) ထဲမွာ အေပၚက event id နဲ့ အတူတူ နာမည္ေပးျပီး သိမ္းရပါမယ္။
