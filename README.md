@@ -1,7 +1,9 @@
 # FOSS MYANMAR
 
 ### Add Member
-Update your information in "_data/members.json" 
+
+Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_data` ထဲက `members.json` ထဲမွာ ေအာက္ပပံုစံအတုိင္း သြားထည့္ေပးလုိက္ရင္ရပါျပီ။
+
 
 ```json
 {  
@@ -20,19 +22,17 @@ Update your information in "_data/members.json"
 ```
 
 
-Add member image into "images/members/{}"
-
 ### Image Upload 
 
-(1)Image name with event id from json file ( _datas/events.json )
+(၁)ဓါတ္ပံုဆိုဒ္မွာ  600X600 pixel ျဖစ္ရပါမယ္။
 
-(2) image size : 600X600 pixel
+(၂) ဓါတ္ပံု၏ နာမည္ကုိ `_data/members.json` မွာ ထည့္ထားတဲ့ imgName နဲ့ တူတူေပးျပီးေတာ့ ဓါတ္ပံုကုိ `images/events` ထဲဲကုိ  သက္ဆုိင္ရာ(uformm/ fedora) ထဲထည့္ပါ။
 
-(3) Place image file in "images/events" with event id name
 
 
 ### Add Events 
-Update new Json Array Object into json file (_data/events_fedora.json ) as following datas
+
+Event အသစ္တစ္ခုထည့္ဖုိ့က ေအာက္က ပံုစံအတုိင္းကုိ `_data` ထဲက သက္ဆုိင္ရာ(events_ubuntu.json သို ့မဟုတ္ events_fedora.json) ထဲမွာထည့္ေပးရင္ ေရွ ့မွာ ေပၚပါလိမ့္မယ္။
 
 ```json
 {
@@ -54,3 +54,5 @@ Update new Json Array Object into json file (_data/events_fedora.json ) as follo
 	name: "Ubuntu PRP - MICT Rom 205"
 },
 ```
+
+Event ဓါတ္ပံုထည့္ဖုိ့ အတြက္က images/events ထဲက (fedora/uformm) ထဲမွာ အေပၚက event id နဲ့ အတူတူ နာမည္ေပးျပီး သိမ္းရပါမယ္။
