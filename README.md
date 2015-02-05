@@ -1,5 +1,10 @@
 # FOSS MYANMAR
 
+
+### First 
+
+Ford Repository to your account and git pull to your pc
+
 ### Add Member
 
 Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_data` ထဲက `members.json` ထဲမွာ ေအာက္ပပံုစံအတုိင္း သြားထည့္ေပးလုိက္ရင္ရပါျပီ။
