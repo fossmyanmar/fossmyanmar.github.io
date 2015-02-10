@@ -1,2 +1,6 @@
 name: FOSS Myanmar
-highlighter: false
+highlighter: pygments
+github: fossmyanmar.github.io
+
+safe: true
+lsi: false
