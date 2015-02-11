@@ -1,6 +1,6 @@
 name: FOSS Myanmar
-highlighter: pygments
-github: fossmyanmar.github.io
+url: "http://fossmyanmar.github.io" 
 
-safe: true
-lsi: false
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
