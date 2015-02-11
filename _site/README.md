@@ -40,25 +40,14 @@ Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_
 Event အသစ္တစ္ခုထည့္ဖုိ့က ေအာက္က ပံုစံအတုိင္းကုိ `_data` ထဲက သက္ဆုိင္ရာ(events_ubuntu.json သို ့မဟုတ္ events_fedora.json) ထဲမွာထည့္ေပးရင္ ေရွ ့မွာ ေပၚပါလိမ့္မယ္။
 
 ```json
-{
-	date_begin: "2012-08-18 07:30:00",
-	description: "Ubuntu 12.04 LTS Introduction Ubuntu MM 12.04 LTS DVD Distribution Android TV Ubuntu on Mini-PC Myanmar/Shan/Pao/Mon Keyboard and Font Gimp, InkScape, Scrbus, Libre Office, Alien Arena, 0.a.d, Handbrake, Gtk-Recorder, HUD, Unity and Lens, etc ...",
-	date_end: "2012-08-18 10:30:00",
-	registration: "https://www.facebook.com/events/143945579078373/",
-	venue: 813,
-	created_by: null,
-	teams: [
-	178
-	],
-	contact: 1461,
-	date_created: "2012-08-17 16:00:50.763613",
-	announce: "https://www.facebook.com/events/143945579078373/",
-	global_event: 1444,
-	id: 1907,
-	channel: "#ubuntu-mm",
-	name: "Ubuntu PRP - MICT Rom 205"
+{  
+	"name"	: "Ubuntu For Myanmar",
+	"link": "http://ubuntu-mm.net",
+	"date"	: "2 FEB 2013 to 3 FEB 2013",
+	"contact": "kokoye2007@gmail.com",
+	"eventPhoto": "1907.jpg",
 },
 ```
 ### Add Event Photo
 
-Event ဓါတ္ပံုထည့္ဖုိ့ အတြက္က images/events ထဲက (fedora/uformm) ထဲမွာ အေပၚက event id နဲ့ အတူတူ နာမည္ေပးျပီး သိမ္းရပါမယ္။
+Event ဓါတ္ပံုထည့္ဖုိ့ အတြက္က images/events ထဲက (fedora/uformm) ထဲမွာ အေပၚမွာ ျဖည့္ထားတဲ့ eventPhoto နဲ့ အတူတူ နာမည္ေပးျပီး သိမ္းရပါမယ္။
