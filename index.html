@@ -148,12 +148,14 @@ layout : home
 		<div class="row">
 			{% for event in site.data.event.events_ubuntu %}
 			<div class="portfolio-item col-md-3 col-sm-6">
-				<a href="{{ event.announce }}" target="_blank">
+				<a href="{{ event.link }}" target="_blank">
 					<div class="portfolio-thumb">
 						<img src="images/events/uformm/{{ event.eventPhoto }}" alt="{{ event.name }}">
 						<div class="portfolio-overlay">
 							<h3>{{ event.name }}</h3>
-							<p style="width:100%;height:100px;overflow:hidden;">{{ event.description }}</p>
+							<p style="width:100%;height:20px;overflow:hidden;">{{ event.description }}</p>
+							<p  style="width:100%;height:100px;overflow:hidden;">@ {{ event.address }}</p>
+							<p style="width:100%;height:100px;overflow:hidden;">{{ event.date }}</p>
 						</div> <!-- /.portfolio-overlay -->
 					</div> <!-- /.portfolio-thumb -->
 				</a>

@@ -42,9 +42,11 @@ Event အသစ္တစ္ခုထည့္ဖုိ့က ေအာက္က 
 ```json
 {  
 	"name"	: "Ubuntu For Myanmar",
+	"description" : "For Share ubuntu knowledge",
 	"link": "http://ubuntu-mm.net",
 	"date"	: "2 FEB 2013 to 3 FEB 2013",
 	"contact": "kokoye2007@gmail.com",
+	"address" : "CCT Office",
 	"eventPhoto": "1907.jpg",
 },
 ```
