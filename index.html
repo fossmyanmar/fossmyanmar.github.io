@@ -174,20 +174,21 @@ layout : home
 			</div> <!-- /.heading-section -->
 		</div> <!-- /.row -->
 		<div class="row">
-			{% for team in site.data.member.members %}
+			{% for test in site.data.member %}
+			{% assign member =  test[1] %}
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
-					{% if team.imgName == null %}
+					{% if member.imgName == null %}
 					{% assign imgName = "team.png" %}
 					{% else %}
-					{% assign imgName = team.imgName %}
+					{% assign imgName = member.imgName %}
 					{% endif %}
-					<img src="images/members/{{ imgName }}" alt="{{ team.name }}">
+					<img src="images/members/{{ imgName }}" alt="{{ member.team }}">
 					<div class="team-overlay">
-						<h3>{{ team.name }}</h3>
-						<span>{{ team.position }}</span>
+						<h3>{{ member.name }}</h3>
+						<span>{{ member.position }}</span>
 						<ul class="social">
-							<li><a href="https://www.facebook.com/{{ team.social.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
+							<li><a href="https://www.facebook.com/{{ member.social.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
 							<li><a href="#" class="fa fa-twitter"></a></li>
 							<li><a href="#" class="fa fa-linkedin"></a></li>
 						</ul>

@@ -1,9 +1,8 @@
-[
 {  
 "team"	: "1",
-"imgName": "kokoye2007.jpg",
-"name": "KoKoYe",
-"position"  : "Team Leader",
+"imgName": "ethan.jpg",
+"name": "Ethan",
+"position"  : "Member",
 "social": {
 	"twitter": "kokoye2007",
 	"link": "http://ubuntu-mm.net",
@@ -11,7 +10,6 @@
 	"facebook": "kokoye2007",
 	"gplus": "+KoKoYe",
 	"github": "kokoye2007"
-	},
-},
+	}
+}
 
-]
