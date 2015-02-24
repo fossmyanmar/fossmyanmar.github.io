@@ -2,8 +2,15 @@
 
 ### First 
 
-Ford Repository to your account and git pull to your pc
+Ford Repository to your account and git pull to your pc.
 
+copy and paste following code in Terminal to get this repository.
+
+``` github
+
+git clone https://github.com/fossmyanmar/fossmyanmar.github.io.git 
+
+```
 ### Add Member
 
 Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_data` ထဲက `member` ဖိုဒါထဲမွာ text ဖိုင္အသစ္တစ္ခုထပ္ထပ္ျပီး ေအာက္ပါပံုစံအတုိင္း ေရးျပီးေတာ့ member နာမည္ႏွင့္ ( kokoye.yml) အမည္ေပးရင္ ေရွ ့မွာ ေပၚပါျပီ။ ( အေကာင္းဆံုးကေတာ့ တစ္ဖိုင္ကူးပိး နာမည္ေျပာင္းထည့္လဲရပါတယ္ )
