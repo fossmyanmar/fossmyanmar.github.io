@@ -5,5 +5,13 @@
 		"address" : "",
 		"leader"   : "KOKOYE",
 		"contact " : "09450022022"
+	},
+
+	{  
+		"id"	: 2,
+		"name"	: "Fedora Myanmar",
+		"address" : "",
+		"leader"   : "Yan Naing Myint",
+		"contact " : "09450022022"
 	}
 ]
