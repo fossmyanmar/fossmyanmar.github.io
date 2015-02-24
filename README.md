@@ -71,9 +71,10 @@ Team အသစ္တစ္ခု ျပဳလုပ္ဖုိ ့အတြက�
 
 ## Finished ??
 
+``` github
 git status
 git add --all
 git commit -a -m "member add"
 git push origin master
-
+```
 Please pull request <3 
