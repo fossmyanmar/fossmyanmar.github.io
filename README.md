@@ -15,11 +15,9 @@ git clone https://github.com/fossmyanmar/fossmyanmar.github.io.git
 
 Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_data` ထဲက `member` ဖိုဒါထဲမွာ text ဖိုင္အသစ္တစ္ခုထပ္ထပ္ျပီး ေအာက္ပါပံုစံအတုိင္း ေရးျပီးေတာ့ member နာမည္ႏွင့္ ( kokoye.yml) အမည္ေပးရင္ ေရွ ့မွာ ေပၚပါျပီ။ ( အေကာင္းဆံုးကေတာ့ တစ္ဖိုင္ကူးပိး နာမည္ေျပာင္းထည့္လဲရပါတယ္ )
 
-အဲဒီမွာ ထည့္ထားတဲ့ 'team:1' ဆိုတာက '_data/team/teams.json' ထဲမွာ ထည့္ထားတဲ့ သက္ဆိုင္ရာ team အသီးသီးရဲ့  id ျဖစ္ပါတယ္။ ကိုယ့္ team အုိင္ဒီမသိရင္ အဲဒီထဲ သြားၾကည့္လုိ ့ရႏုိင္ပါတယ္။ မထည့္ရေသးရင္ ကုိယ့္ဘာသာ ထည့္ဖုိ ့အတြက္ ေအာက္မွာ သပ္သပ္ ေရးထားတာရွိပါတယ္။
-
 ```yml
 
-team : 1
+team : Ubuntu For Myanmar
 name: Ethan
 position: Member
 imgName: ethan.jpg
