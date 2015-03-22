@@ -17,10 +17,10 @@ Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_
 
 ```yml
 
-team : Ubuntu For Myanmar
-name: Ethan
+team : Ubuntu Myanmar Loco Team
+name: KoKoYe
 position: Member
-imgName: ethan.jpg
+imgName: kokoye.jpg
 social:
   - twitter: kokoye2007
     website : www.ubuntu.net
