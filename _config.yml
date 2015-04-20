@@ -1,5 +1,5 @@
 name: FOSS Myanmar
-url: "http://127.0.0.1:3333/" 
+url: "http://fossmyanmar.github.io" 
 
 markdown: kramdown
 permalink: pretty
