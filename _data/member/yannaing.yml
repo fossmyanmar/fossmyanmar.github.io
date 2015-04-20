@@ -2,10 +2,10 @@ team : Fedora Project - Myanmar Community
 name: Yan Naing Myint
 position: Team Leader
 imgName: yannaing.jpg
-social:
-  - twitter: orcakrilozona
-    website : http://mm.fedoracommunity.org
-    mail : orcakrilozona@fedoraproject.org
-    facebook : orca.krilozona
-    gplus : +OrcaKrilozona
-    github: orcakrilozona
+
+twitter: orcakrilozona
+website : http://mm.fedoracommunity.org
+mail : orcakrilozona@fedoraproject.org
+facebook : orca.krilozona
+gplus : +OrcaKrilozona
+github: orcakrilozona

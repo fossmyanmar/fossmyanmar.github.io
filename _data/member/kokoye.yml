@@ -2,10 +2,10 @@ team : Ubuntu Myanmar Loco Team
 name: Ko Ko Ye`
 position: Team Leader
 imgName: kokoye2007.jpg
-social:
-  - twitter: kokoye2007
-    website : www.ubuntu-mm.net
-    mail : kokoye2007@gmail.com
-    facebook : kokoye2007
-    gplus : +KoKoYe
-    github: kokoye2007
+
+twitter: kokoye2007
+website : www.ubuntu-mm.net
+mail : kokoye2007@gmail.com
+facebook : kokoye2007
+gplus : +KoKoYe
+github: kokoye2007

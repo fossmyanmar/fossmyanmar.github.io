@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://127.0.0.1:3333//</link>
-    <atom:link href="http://127.0.0.1:3333//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Apr 2015 00:24:13 +0630</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2015 00:24:13 +0630</lastBuildDate>
+    <link>http://fossmyanmar.github.io//</link>
+    <atom:link href="http://fossmyanmar.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Apr 2015 00:48:29 +0630</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2015 00:48:29 +0630</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
     <item>
@@ -38,8 +38,8 @@ Door 2 Door Delivery လုပ္မလား စဥ္းစားရပါမ�
 
 </description>
         <pubDate>Mon, 20 Apr 2015 21:05:13 +0630</pubDate>
-        <link>http://127.0.0.1:3333//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
-        <guid isPermaLink="true">http://127.0.0.1:3333//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
+        <link>http://fossmyanmar.github.io//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
+        <guid isPermaLink="true">http://fossmyanmar.github.io//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
         
         
         <category>lrc</category>
@@ -64,8 +64,8 @@ Door 2 Door Delivery လုပ္မလား စဥ္းစားရပါမ�
 
 </description>
         <pubDate>Mon, 02 Feb 2015 21:05:13 +0630</pubDate>
-        <link>http://127.0.0.1:3333//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
-        <guid isPermaLink="true">http://127.0.0.1:3333//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
+        <link>http://fossmyanmar.github.io//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
+        <guid isPermaLink="true">http://fossmyanmar.github.io//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
         
         
         <category>jekyll</category>
