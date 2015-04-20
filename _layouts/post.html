@@ -63,23 +63,30 @@ layout: post
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 post">
 
 						<h3 style="margin:10px 0;">{{ page.date }}</h3>
 
 						{{ content }}
+						
+					</div>
 
-						<a href="{{ page.next.url }}">{{ page.next.title }}</a>
-						<a href="{{ page.previous.url }}"> {{ page.previous.title }}</a>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="pull-left">
+							<a href="{{ page.previous.url }}"> {{ page.previous.title }}</a>
+						</div>
+						<div class="pull-right">
+							<a href="{{ page.next.url }}">  {{ page.next.title }}</a>
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						{% for post in site.related_posts %}
-						<div class="col-md-12">
 						<h1  style="font-size: 27px;  margin: 20px 0;">Related Posts</h1>
 							<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-						</div>
 						{% endfor %}
 
 					</div>

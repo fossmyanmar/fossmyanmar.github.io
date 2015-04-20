@@ -712,11 +712,28 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 }
 */
 
-
-
-.post-title
+.col-md-12
 {
+   padding: 0px 44px;
+}
+.container {
+  padding-bottom: 42px;
+}
+
+.post-title {
   font-size: 30px;
-  margin: 20px 0;
   font-weight: bold;
+}
+
+.col-md-12.post {
+  padding: 24px 44px;
+}
+.post p {
+  font-size: 14px;
+  line-height: 32px;
+  font-family: Zawgyi-one;
+}
+
+.col-md-12.posts {
+  margin: 16px 0;
 }
