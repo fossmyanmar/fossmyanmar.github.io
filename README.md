@@ -21,13 +21,13 @@ team : Ubuntu Myanmar Loco Team
 name: KoKoYe
 position: Member
 imgName: kokoye.jpg
-social:
-  - twitter: kokoye2007
-    website : www.ubuntu.net
-    mail : kokoye2007@gmail.com
-    facebook : kokoye2007
-    gplus : +KoKoYe
-    github: kokoye2007
+
+twitter: kokoye2007
+website : www.ubuntu.net
+mail : kokoye2007@gmail.com
+facebook : kokoye2007
+gplus : +KoKoYe
+github: kokoye2007
 
 ```
 
