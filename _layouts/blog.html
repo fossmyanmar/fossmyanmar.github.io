@@ -1,0 +1,76 @@
+---
+layout: blog
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<style>
+  .main-header
+  {
+    position: relative !important;
+    top: 0px; 
+  }
+</style>
+<body>
+
+  {% include header.html %}
+  <div class="site-header">
+    <div class="main-header">
+      <div class="container">
+        <div id="menu-wrapper">
+          <div class="row">
+            <div class="logo-wrapper col-md-4 col-sm-2 col-xs-8">
+              <h1>
+                <a href="{{ site.url }}">FOSSMYANMAR</a>
+              </h1>
+            </div> <!-- /.logo-wrapper -->
+            <div class="col-md-8 col-sm-10 col-xs-4 main-menu text-right">
+              <ul class="menu-first hidden-sm hidden-xs">
+                <li><a href="{{ site.url }}">Home</a></li>
+                <li><a href="{{ site.url }}#about">About</a></li>
+                <li><a href="{{ site.url }}#events">Events</a></li>
+                <li><a href="{{ site.url }}#our-contributor">Contributor</a></li>
+                <li class="active"><a href="#">Blog</a></li>
+                <li><a href="{{ site.url }}#contact">Contact</a></li>
+              </ul>
+              <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+            </div> <!-- /.main-menu -->
+          </div> <!-- /.row -->
+        </div> <!-- /#menu-wrapper -->
+        <div class="menu-responsive hidden-md hidden-lg">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#our-contributor">Contributor</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> <!-- /.menu-responsive -->
+      </div> <!-- /.container -->
+    </div> <!-- /.main-header -->
+  </div> <!-- /.site-header -->
+  
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="post-title">Blogs</h1>
+          </div>
+        </div>
+        <div class="row">
+          {{ content }}
+
+          {{ paginator.per_page }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

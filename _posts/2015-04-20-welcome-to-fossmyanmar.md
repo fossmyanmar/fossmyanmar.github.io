@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Foss Myanmar!"
 date:   2015-02-02 14:35:13
 categories: jekyll update
 ---

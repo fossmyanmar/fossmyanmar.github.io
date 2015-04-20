@@ -1,13 +1,93 @@
 ---
-layout: default
+layout: post
 ---
-<div class="post">
 
-	<header class="post-header">
-		<h1 class="post-title">{{ page.title }}</h1>
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-		</header>
-	<article class="post-content">
-		{{ content }}
-	</article>
-</div>
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<style>
+	.main-header
+	{
+		position: relative !important;
+		top: 0px; 
+	}
+</style>
+<body>
+
+	{% include header.html %}
+	<div class="site-header">
+		<div class="main-header">
+			<div class="container">
+				<div id="menu-wrapper">
+					<div class="row">
+						<div class="logo-wrapper col-md-4 col-sm-2 col-xs-8">
+							<h1>
+								<a href="{{ site.url }}">FOSSMYANMAR</a>
+							</h1>
+						</div> <!-- /.logo-wrapper -->
+						<div class="col-md-8 col-sm-10 col-xs-4 main-menu text-right">
+							<ul class="menu-first hidden-sm hidden-xs">
+								<li><a href="{{ site.url }}">Home</a></li>
+								<li><a href="{{ site.url }}#about">About</a></li>
+								<li><a href="{{ site.url }}#events">Events</a></li>
+								<li><a href="{{ site.url }}#our-contributor">Contributor</a></li>
+								<li class="active"><a href="{{ site.url }}blog">Blog</a></li>
+								<li><a href="{{ site.url }}#contact">Contact</a></li>
+							</ul>
+							<a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+						</div> <!-- /.main-menu -->
+					</div> <!-- /.row -->
+				</div> <!-- /#menu-wrapper -->
+				<div class="menu-responsive hidden-md hidden-lg">
+					<ul>
+						<li><a href="{{ site.url }}">Home</a></li>
+						<li><a href="{{ site.url }}#services">Services</a></li>
+						<li><a href="{{ site.url }}#portfolio">Portfolio</a></li>
+						<li><a href="{{ site.url }}#our-contributor">Contributor</a></li>
+						<li class="active"><a href="{{ site.url }}#blog">Blog</a></li>
+						<li><a href="{{ site.url }}#contact">Contact</a></li>
+					</ul>
+				</div> <!-- /.menu-responsive -->
+			</div> <!-- /.container -->
+		</div> <!-- /.main-header -->
+	</div> <!-- /.site-header -->
+	
+	<div class="page-content">
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<h1 class="post-title">{{ page.title }}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+
+						<h3 style="margin:10px 0;">{{ page.date }}</h3>
+
+						{{ content }}
+
+						<a href="{{ page.next.url }}">{{ page.next.title }}</a>
+						<a href="{{ page.previous.url }}"> {{ page.previous.title }}</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						{% for post in site.related_posts %}
+						<div class="col-md-12">
+						<h1  style="font-size: 27px;  margin: 20px 0;">Related Posts</h1>
+							<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

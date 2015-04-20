@@ -3,14 +3,51 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://fossmyanmar.github.io/</link>
-    <atom:link href="http://fossmyanmar.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Feb 2015 07:20:08 +0630</pubDate>
-    <lastBuildDate>Tue, 24 Feb 2015 07:20:08 +0630</lastBuildDate>
+    <link>http://127.0.0.1:3333//</link>
+    <atom:link href="http://127.0.0.1:3333//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 20 Apr 2015 23:29:58 +0630</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2015 23:29:58 +0630</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
     <item>
-        <title>Welcome to Jekyll!</title>
+        <title>LRC – Linux Resource Center Resource to Door!</title>
+        <description>&lt;p&gt;LRC ဆိုတာကို ဘယ္သူေတြ မွတ္မိလဲ။
+စကားမစပ္ LRC – Local Resources Centre (Myanmar)​ လဲ LRC လို႔ေခၚတယ္။ အဲတာကို ေျပာတာမဟုတ္ပါဘူး။&lt;/p&gt;
+
+&lt;p&gt;အရင္တုန္းက ကြ်န္ေတာ္တို႔ Linux Resource Center ဆိုၿပီး လုပ္ခဲ့ၾကတာပါ။
+မိမိႏွစ္သက္ရာ OS ကို National CD မွာေတာင္ ဝယ္မရတဲ့ အေျခအေနမွာ မွ်ေဝဖို႔ ႀကိဳးစားခဲ့ၾကတာေပါ့။&lt;/p&gt;
+
+&lt;p&gt;အခုေခတ္မွာေတာ့ Ubuntu ေခြ Fedora ေခြ CentOS ေခြ RedHat ေခြေတြကို လြယ္လြယ္ကူကူ ဝယ္လို႔ရေနပါၿပီ။ ဒါေပမယ့္ Update မျဖစ္တာ Architect မစုံတာ သူတို႔ မသိပါဘူး။ version အစုံလည္း မရွိပါဘူး။ Video Tutorial ေတြ Guide ေရးေပးတဲ့ Website ေတြ Wiki ေတြဆိုတာလည္း အင္တာနက္ရမွ အသုံးျပဳႏိုင္တာပါ။ ဒီအတြက္ LRC ရွိမယ္ဆိုရင္ ဒါေတြကို Internet Traffic မရွိပဲ သုံးႏိုင္ပါလိမ့္မယ္။&lt;/p&gt;
+
+&lt;p&gt;အဲအတြက္
+LRC ေလးေတြ ျပန္လုပ္ရင္ ေကာင္းမလား
+LRC ေတြလုပ္မယ္ဆိုရင္
+၁) Storage အတြက္ External HDD ေတာ့ အနည္းဆုံး ကုန္က်ပါမယ္။ Internet ဆိုင္လို ေကာ္ဖီဆိုင္လိုေနရာေတြက ဝိုင္ဖိုင္ေတြဆိုရင္ ပါဝင္ဖြင့္ထားတဲ့အခ်ိန္ရပါမယ္။
+၂) File Server လိုထားမယ္ဆိုရင္ Pi ထပ္လိုပါမယ္။
+၃) ဆိုင္ေတြ ေနရာေတြက လက္ခံသလား တာဝန္ယူသလား ပူးေပါင္းပါဝင္ ကူညီမလား ဆိုတာရွိပါတယ္။&lt;/p&gt;
+
+&lt;p&gt;သို႔မဟုတ္
+Door 2 Door Delivery လုပ္မလား စဥ္းစားရပါမယ္။
+အိမ္တိုင္ရာေရာက္ ပို႔ေပးၿပီး တေခြကို ၁၀၀၀ ထက္မပိုတဲ့ႏႈန္းနဲ႔ အျမန္ဆုံးပို႔ေပးႏိုင္ဖို႔ ႀကိဳးစားၾကည့္ၾကပါမယ္။&lt;/p&gt;
+
+&lt;p&gt;LRC ရဲ႕ အားသာခ်က္က LRC ရွိတဲ့ ေနရာေတြ ေၾကျငာထားမွာျဖစ္လို႔ ႀကဳံတဲ့ေနရာ ဝင္ၿပီး ယူသြားယုံပါပဲ။ ကုန္က်စားရိတ္ကို LRC နဲ႔ ဆိုင္ေတြဘက္က က်ခံရပါလိမ့္မယ္။&lt;/p&gt;
+
+&lt;p&gt;D2D ရဲ႕ အားသာခ်က္က စားရိတ္အမ်ားႀကီး မကုန္ပဲ အိမ္တိုင္ရာေရာက္ ပို႔ေပးပါလိမ့္မယ္။ ကုန္က်စားရိတ္ကို အသုံးျပဳသူက က်ခံရပါလိမ့္မယ္။ အားနည္းခ်က္ကေတာ့ နယ္ကလာတဲ့လူဆိုရင္ LRC က အဆင္ေျပတဲ့အခ်ိန္ေလး လမ္းႀကဳံဝင္ယူသြားရုံပါပဲ။ D2D ဆိုရင္ လက္ခံမယ့္ အိမ္ေတြ ေငြေခ်ေပးမယ့္ လူေတြ လိုအပ္ေနပါလိမ့္မယ္။&lt;/p&gt;
+
+&lt;p&gt;တကယ္လို႔ တခုခုက ပိုေကာင္းတဲ့ အေၾကာင္းျပခ်က္ရွိရင္ ဒီဟာေတြထက္ ေကာင္းတဲ့ အႀကံရွိရင္ ေပးေစခ်င္ပါတယ္။ LRC လုပ္ဖို႔ကို စိတ္ဝင္စားတဲ့လူေတြရွိတယ္ဆုိလည္း ဘယ္အပိုင္းက ဘယ္လိုကူညီေပးႏိုင္တယ္ဆိုတာေလးပါ ေရးခဲ့ေပးႏိုင္ပါတယ္။&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Apr 2015 21:05:13 +0630</pubDate>
+        <link>http://127.0.0.1:3333//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
+        <guid isPermaLink="true">http://127.0.0.1:3333//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
+        
+        
+        <category>lrc</category>
+        
+    </item>
+    
+    <item>
+        <title>Welcome to Foss Myanmar!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -27,8 +64,8 @@
 
 </description>
         <pubDate>Mon, 02 Feb 2015 21:05:13 +0630</pubDate>
-        <link>http://fossmyanmar.github.io/jekyll/update/2015/02/02/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://fossmyanmar.github.io/jekyll/update/2015/02/02/welcome-to-jekyll/</guid>
+        <link>http://127.0.0.1:3333//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
+        <guid isPermaLink="true">http://127.0.0.1:3333//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
         
         
         <category>jekyll</category>
