@@ -29,7 +29,7 @@ layout: blog
             </div> <!-- /.logo-wrapper -->
             <div class="col-md-8 col-sm-10 col-xs-4 main-menu text-right">
               <ul class="menu-first hidden-sm hidden-xs">
-                <li><a href="{{ site.url }}">Home</a></li>
+                <li><a href="{{ site.base }}">Home</a></li>
                 <li><a href="{{ site.url }}#about">About</a></li>
                 <li><a href="{{ site.url }}#events">Events</a></li>
                 <li><a href="{{ site.url }}#our-contributor">Contributor</a></li>
@@ -64,8 +64,6 @@ layout: blog
         </div>
         <div class="row">
           {{ content }}
-
-          {{ paginator.per_page }}
         </div>
       </div>
     </div>
