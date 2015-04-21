@@ -59,7 +59,7 @@ layout: post
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-					<h1 class="post-title">{{ page.title }}</h1>
+						<h1 class="post-title">{{ page.title }}</h1>
 					</div>
 				</div>
 				<div class="row">
@@ -74,19 +74,23 @@ layout: post
 				</div>
 				<div class="row">
 					<div class="col-md-12">
+						{% if(page.previous.url) %}
 						<div class="pull-left">
-							<a href="{{ page.previous.url }}" class="btn btn-default"> Previous </a>
+							<a href="{{ page.previous.url }}" class="btn btn-default"> Previous : {{ page.previous.title  }} </a>
 						</div>
+						{% endif %}
+						{% if(page.next.url) %}
 						<div class="pull-right">
-							<a href="{{ page.next.url }}" class="btn btn-default">  Next </a>
+							<a href="{{ page.next.url }}" class="btn btn-default">  Next : {{ page.next.title  }}</a>
 						</div>
+						{% endif %}
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						{% for post in page.related_posts %}
 						<h1  style="font-size: 27px;  margin: 20px 0;">Related Posts</h1>
-							<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+						<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 						{% endfor %}
 
 					</div>
