@@ -723,6 +723,7 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 .post-title {
   font-size: 30px;
   font-weight: bold;
+    text-shadow: 0px 2px 2px #E2DBDB;
 }
 
 .col-md-12.post {
@@ -736,6 +737,7 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 32px;
   font-family:Zawgyi-One;
+  text-shadow: 0px 2px 2px #E2DBDB;
 }
 
 .col-md-12.posts {
@@ -751,4 +753,15 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 .col-md-12.post:hover {
   border: 1px solid rgb(228, 213, 213);
 
+}
+
+.post ul {
+  background: rgb(243, 98, 63);
+  padding: 14px;
+  margin: 15px 0px;
+  color: #FFF;
+}
+
+.post ul li {
+  line-height: 30px;
 }
