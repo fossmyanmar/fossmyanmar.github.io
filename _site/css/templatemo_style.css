@@ -280,8 +280,8 @@ hr {
 
 .logo-wrapper {
  /* background: url(../images/logo.png) no-repeat;*/
-  height: 100px;
-  background-position: 15px;
+ height: 100px;
+ background-position: 15px;
 }
 .logo-wrapper a {
   display: inline-block;
@@ -714,7 +714,7 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 
 .col-md-12
 {
-   padding: 0px 44px;
+ padding: 0px 44px;
 }
 .container {
   padding-bottom: 42px;
@@ -727,11 +727,15 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 
 .col-md-12.post {
   padding: 24px 44px;
+  padding: 33px;
+  margin: 23px 0;
+  border: 1px solid #FFF;
+  transition:.5s ease-in-out;
 }
 .post p {
   font-size: 14px;
   line-height: 32px;
-  font-family: Zawgyi-one;
+  font-family:Zawgyi-One;
 }
 
 .col-md-12.posts {
@@ -741,4 +745,10 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 .post img {
   width: 100%;
   margin-top: 33px;
+}
+
+
+.col-md-12.post:hover {
+  border: 1px solid rgb(228, 213, 213);
+
 }
