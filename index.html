@@ -186,7 +186,7 @@ layout : home
 					{% else %}
 					{% assign imgName = member.imgName %}
 					{% endif %}
-					<img src="images/members/{{ imgName }}" alt="{{ member.team }}">
+					<img src="images/contributors/{{ imgName }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
 						<span> {{ member.team }}</span>
@@ -226,13 +226,11 @@ layout : home
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
-						<span> {{ member.team }}</span>
-						<span>{{ member.position }}</span>
+						<span> {{ member.teams }}</span>
 						<ul class="social">
-							<li><a href="https://www.facebook.com/{{ member.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
-							<li><a href="https://www.twitter.com/{{ member.twitter }}" class="fa fa-twitter" target="_blank"></a></li>
-							<li><a href="https://www.github.com/{{ member.github }}" class="fa fa-github" target="_blank"></a></li>
-							<li><a href="http://{{ member.website }}" class="fa fa-link" target="_blank"></a></li>
+							<li><a href="{{ member.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
+							<li><a href="{{ member.twitter }}" class="fa fa-twitter" target="_blank"></a></li>
+							<li><a href="{{ member.github }}" class="fa fa-github" target="_blank"></a></li>
 						</ul>
 					</div> <!-- /.team-overlay -->
 				</div> <!-- /.member-thumb -->
