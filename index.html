@@ -18,6 +18,7 @@ layout : home
 								<li><a href="#about">About</a></li>
 								<li><a href="#events">Events</a></li>
 								<li><a href="#our-contributor">Contributor</a></li>
+								<li><a href="#member">Member</a></li>
 								<li><a href="blog">Blog</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -176,7 +177,7 @@ layout : home
 			</div> <!-- /.heading-section -->
 		</div> <!-- /.row -->
 		<div class="row">
-			{% for test in site.data.member %}
+			{% for test in site.data.contributor %}
 			{% assign member =  test[1] %}
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
@@ -186,6 +187,43 @@ layout : home
 					{% assign imgName = member.imgName %}
 					{% endif %}
 					<img src="images/members/{{ imgName }}" alt="{{ member.team }}">
+					<div class="team-overlay">
+						<h3>{{ member.name }}</h3>
+						<span> {{ member.team }}</span>
+						<span>{{ member.position }}</span>
+						<ul class="social">
+							<li><a href="https://www.facebook.com/{{ member.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
+							<li><a href="https://www.twitter.com/{{ member.twitter }}" class="fa fa-twitter" target="_blank"></a></li>
+							<li><a href="https://www.github.com/{{ member.github }}" class="fa fa-github" target="_blank"></a></li>
+							<li><a href="http://{{ member.website }}" class="fa fa-link" target="_blank"></a></li>
+						</ul>
+					</div> <!-- /.team-overlay -->
+				</div> <!-- /.member-thumb -->
+			</div> <!-- /.team-member -->
+			{% endfor %}
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /#our-team -->
+
+<div class="content-section" id="member">
+	<div class="container">
+		<div class="row">
+			<div class="heading-section col-md-12 text-center">
+				<h2>Our Member</h2>
+				<p>Meet our people and about our community</p>
+			</div> <!-- /.heading-section -->
+		</div> <!-- /.row -->
+		<div class="row">
+			{% for test in site.data.member %}
+			{% assign member =  test[1] %}
+			<div class="team-member col-md-3 col-sm-6">
+				<div class="member-thumb">
+					{% if member.imgName == null %}
+					{% assign imgName = "team.png" %}
+					{% else %}
+					{% assign imgName = member.photo %}
+					{% endif %}
+					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
 						<span> {{ member.team }}</span>
