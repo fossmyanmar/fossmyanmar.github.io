@@ -18,17 +18,15 @@ Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_
 ```yml
 
 team : Ubuntu Myanmar Loco Team
-name: KoKoYe
-position: Member
-imgName: kokoye.jpg
-
-twitter: kokoye2007
-website : www.ubuntu.net
-mail : kokoye2007@gmail.com
-facebook : kokoye2007
-gplus : +KoKoYe
-github: kokoye2007
-
+teams : FOSS Myanmar, Ubuntu Myanmar Loco Team 
+name : Ko Ko Ye` 
+email : kokoye2007@gmail.com 
+photo : ko-ko-ye.png 
+facebook : https://facebook.com/kokoye2007 
+twitter : https://twitter.com/kokoye2007 
+github : https://github.com/kokoye2007 
+linkedin : https://linkedin.com/in/kokoye2007 
+os : Ubuntu 
 ```
 
 ### Add Member Picture
