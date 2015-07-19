@@ -32,7 +32,6 @@ layout : home
 						<li><a href="#about">About</a></li>
 						<li><a href="#events">Events</a></li>
 						<li><a href="#our-contributor">Contributor</a></li>
-						<li><a href="#member">Member</a></li>
 						<li><a href="blog">Blog</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -183,7 +182,7 @@ layout : home
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
 					{% if member.imgName == null %}
-					{% assign imgName = "placeholder.png" %}
+					{% assign imgName = "team.png" %}
 					{% else %}
 					{% assign imgName = member.imgName %}
 					{% endif %}
@@ -219,14 +218,11 @@ layout : home
 			{% assign member =  test[1] %}
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
-					{% assign member_photo = file_exists member.photo %}
-					
-					{% if member_photo == "true" %}
+					{% if member.photo == null %}
 						{% assign photo = "placeholder.png" %}
 					{% else %}
-						{% assign photo = member.photo %}
+					{% assign photo = member.photo %}
 					{% endif %}
-
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
@@ -252,15 +248,20 @@ layout : home
 				<p>Feel free to send a message</p>
 			</div> <!-- /.heading-section -->
 		</div> <!-- /.row -->
-	
+		<div class="row">
+			<div class="col-md-12">
+				<div class="googlemap-wrapper">
+					<div id="map_canvas" class="map-canvas"></div>
+				</div> <!-- /.googlemap-wrapper -->
+			</div> <!-- /.col-md-12 -->
+		</div> <!-- /.row -->
 		<div class="row">
 			<div class="col-md-7 col-sm-6">
 				<address>
 					<ul class="contact-info">
 						<li>Phone: <a href="tel:+959450022022">(+95) 9 4500 22022</a></li>
 						<li>Email: <a href="mailto:info@fossmyanmar.org">info@fossmyanmar.org</a></li>
-						<li>Co-Working Space: Kanaung Hub - Incubation Center</li>
-						<li>Address: Bldg 14, 4 Fl, MICT Park, Hlaing University Campus, Yangon</li>
+						<li>Address: No 26 (B) 1 Fl, MaharSocial Street, Hledan, Kayamut, Yangon</li>
 					</ul>
 				</address>
 				<!-- spacing for mobile viewing --><br><br>

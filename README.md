@@ -16,8 +16,6 @@ git clone https://github.com/fossmyanmar/fossmyanmar.github.io.git
 Member အသစ္တေယာက္ထည့္ဖုိ့ အတြက္ `_data` ထဲက `member` ဖိုဒါထဲမွာ text ဖိုင္အသစ္တစ္ခုထပ္ထပ္ျပီး ေအာက္ပါပံုစံအတုိင္း ေရးျပီးေတာ့ member နာမည္ႏွင့္ ( kokoye.yml) အမည္ေပးရင္ ေရွ ့မွာ ေပၚပါျပီ။ ( အေကာင္းဆံုးကေတာ့ တစ္ဖိုင္ကူးပိး နာမည္ေျပာင္းထည့္လဲရပါတယ္ )
 
 ```yml
-
-team : Ubuntu Myanmar Loco Team
 teams : FOSS Myanmar, Ubuntu Myanmar Loco Team 
 name : Ko Ko Ye` 
 email : kokoye2007@gmail.com 
@@ -31,7 +29,7 @@ os : Ubuntu
 
 ### Add Member Picture
 
-(၁)ဓါတ္ပံုဆိုဒ္မွာ  600X600 pixel ျဖစ္ရပါမယ္။
+(၁)ဓါတ္ပံုဆိုဒ္မွာ  600X600 pixel ( .png) ျဖစ္ရပါမယ္။
 
 
 (၂) ဓါတ္ပံု၏ နာမည္ကုိ `_data/member/{name.yml}` ထဲမွာ ထည့္ထားတဲ့ imgName နဲ့ တူတူေပးျပီးေတာ့ ဓါတ္ပံုကုိ `images/members` ထဲထည့္ရပါမယ္။
