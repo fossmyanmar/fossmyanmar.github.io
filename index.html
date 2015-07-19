@@ -220,15 +220,7 @@ layout : home
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
 					
-					{% for static_file in site.images.members %}
-					    	{% if static_file.path == member.photo %}
-					        		{% assign member_photo = true %}
-					    	{% endif %}
-					{% endfor %}		
-
-					{{ member_photo }}
-
-					{% if member_photo == "true" %}
+					{% if member.photo == null %}
 						{% assign photo = "placeholder.png" %}
 					{% else %}
 						{% assign photo = member.photo %}
