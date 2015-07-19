@@ -219,11 +219,14 @@ layout : home
 			{% assign member =  test[1] %}
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
-					{% if member.photo == null %}
-					{% assign photo = "placeholder.png" %}
+					{% assign member_photo = file_exists member.photo %}
+					
+					{% if member_photo == "true" %}
+						{% assign photo = "placeholder.png" %}
 					{% else %}
-					{% assign photo = member.photo %}
+						{% assign photo = member.photo %}
 					{% endif %}
+
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
