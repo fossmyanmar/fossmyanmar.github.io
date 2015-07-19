@@ -220,6 +220,8 @@ layout : home
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
 					{% assign member_photo = file_exists  images/members/member.photo %}
+
+					{{ $member_photo }}
 					
 					{% if member_photo == "true" %}
 						{% assign photo = "placeholder.png" %}
