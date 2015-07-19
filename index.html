@@ -220,8 +220,8 @@ layout : home
 			<div class="team-member col-md-3 col-sm-6">
 				<div class="member-thumb">
 					
-					{% for static_file in site.static_files %}
-					    	{% if static_file.path == images/members/member.photo %}
+					{% for static_file in site.images.members %}
+					    	{% if static_file.path == member.photo %}
 					        		{% assign member_photo = true %}
 					    	{% endif %}
 					{% endfor %}		
