@@ -221,7 +221,7 @@ layout : home
 				<div class="member-thumb">
 					
 					{% for static_file in site.static_files %}
-					    	{% if static_file.path == images/members/{{ member.photo }} %}
+					    	{% if static_file.path == images/members/member.photo %}
 					        		{% assign member_photo = true %}
 					    	{% endif %}
 					{% endfor %}		
@@ -231,6 +231,7 @@ layout : home
 					{% else %}
 						{% assign photo = member.photo %}
 					{% endif %}
+
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
 						<h3>{{ member.name }}</h3>
