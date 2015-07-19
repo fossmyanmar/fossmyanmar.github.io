@@ -2,7 +2,7 @@
 
 ### First 
 
-Ford Repository to your account and git pull to your pc.
+Fork Repository to your account and git pull to your pc.
 
 copy and paste following code in Terminal to get this repository.
 
