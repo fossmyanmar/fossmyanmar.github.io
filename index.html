@@ -221,7 +221,7 @@ layout : home
 					{% if member.photo == null %}
 						{% assign photo = "placeholder.png" %}
 					{% else %}
-					{% assign photo = member.photo %}
+						{% assign photo = member.photo %}
 					{% endif %}
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
 					<div class="team-overlay">
