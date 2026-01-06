@@ -8,72 +8,72 @@ categories: Ubuntu
 
 ![icon](https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png "Popcorn Time for Ubuntu")
 
-Popcorn Time သည္ **_Netflix_** ကိုမွီျငိမ္းထားေ
-သာ **torrent** streaming applicton ျဖစ္သည္။
-၎သည္ **open source application** တစ္ခုျဖစ္၏။
+Popcorn Time သည် **_Netflix_** ကိုမှီငြိမ်းထားေ
+သာ **torrent** streaming applicton ဖြစ်သည်။
+၎င်းသည် **open source application** တစ်ခုဖြစ်၏။
 
-၎၏အားသာခ်က္မ်ားမွာ 
-- ပံုမွန္ကဲ့သို႔ **torrent** video မ်ားအား ေဒါင္းလုတ္ျပဳလုပ္ခ်ိန္ကိုေစာင့္ဆိုင္းျပီးမွသာ ၾကည့္ရႈရျခင္းမ်ိဳးမဟုတ္ဘဲ **_YouTube_**, **_Netflix_**, **_openload_** တို႔ကဲ့သို႔ တိုက္ရိုက္နီးပါး ***stream*** ၾကည့္ရႈႏိုင္ျခင္းျဖစ္သည္။ 
+၎င်း၏အားသာချက်များမှာ 
+- ပုံမှန်ကဲ့သို့ **torrent** video များအား ဒေါင်းလုတ်ပြုလုပ်ချိန်ကိုစောင့်ဆိုင်းပြီးမှသာ ကြည့်ရှုရခြင်းမျိုးမဟုတ်ဘဲ **_YouTube_**, **_Netflix_**, **_openload_** တို့ကဲ့သို့ တိုက်ရိုက်နီးပါး ***stream*** ကြည့်ရှုနိုင်ခြင်းဖြစ်သည်။ 
   
-- ပို၍ေကာင္းမြန္ေသာ အခ်က္မွာ **ေၾကာ္ျငာ** မ်ားမပါရွိျခင္းျဖစ္သည္။
+- ပို၍ကောင်းမွန်သော အချက်မှာ **ကြော်ငြာ** များမပါရှိခြင်းဖြစ်သည်။
   
-- ၎တြင္ Movies, TV series, Anamie အစရွိသျဖင့္က႑မ်ား စံုလင္စြာပါရွိပါသည္။
+- ၎င်းတွင် Movies, TV series, Anamie အစရှိသဖြင့်ကဏ္ဍများ စုံလင်စွာပါရှိပါသည်။
 
 
-အားနည္းခ်က္မ်ားမွာမူ 
-- **torrent** ကိုအသံုးျပဳထားသျဖင့္ ထပ္ဆင့္ေပးပို႔သူ(seeds)နည္းေသာ Moviesမ်ားအတြက္ အဆင္ေျပေကာင္းမြန္စြာၾကည့္ရႈနုိင္မည္မဟုတ္ပါ။
+အားနည်းချက်များမှာမူ 
+- **torrent** ကိုအသုံးပြုထားသဖြင့် ထပ်ဆင့်ပေးပို့သူ(seeds)နည်းသော Moviesများအတွက် အဆင်ပြေကောင်းမွန်စွာကြည့်ရှုနိုင်မည်မဟုတ်ပါ။
 
-- Seedsနည္းေသာ Moviesမ်ားကို ၎တြင္ပါရွိေသာ**Magnet link**မွတဆင့္ `qbittorrent` ကဲဲ့သို႔ေသာ torrent software application မ်ားျဖင့္ ေဒါင္းလုတ္ျပဳလုပ္နုိင္ပါေသးသည္။
+- Seedsနည်းသော Moviesများကို ၎င်းတွင်ပါရှိသော**Magnet link**မှတဆင့် `qbittorrent` ကဲ့သို့သော torrent software application များဖြင့် ဒေါင်းလုတ်ပြုလုပ်နိုင်ပါသေးသည်။
  
-- Seeds လံုး၀မရွိေသာ ဖိုင္မ်ားကိုမူ ေဒါင္းလုတ္ရယူနုိင္မည္မဟုတ္ပါ။
+- Seeds လုံးဝမရှိသော ဖိုင်များကိုမူ ဒေါင်းလုတ်ရယူနိုင်မည်မဟုတ်ပါ။
 
->သတိျပဳရန္အခ်က္မွာ အခ်ိဳ႕နုိင္ငံမ်ားတြင္ Torrent အသံုးျပဳမႈကို ဥပေဒအရ တင္းၾကပ္စြာတားျမစ္ထားသည္ျဖစ္၏။ သို႔ျဖစ္ပါ၍ Popcorn Time အားအသံုးျပဳမည္ဆိုပါက မိမိေနထိုင္သည့္နိုင္ငံ၏ ဥပေဒသက္ေရာက္မႈမ်ားျဖင့္ ဆင္ျခင္အသံုးျပဳရန္လိုအပ္ပါသည္။
-အျခားနည္းလမ္းအားျဖင့္ [ivacy](https://www.ivacy.com/buy-vpn/) ကဲ့သို႔ေသာ Torrent အသံုးျပဳမႈအတြက္ရည္ရြယ္၍ ၀န္ေဆာင္မႈေပးသည့္ VPN မ်ားကိုတြဲဖက္အသံုးျပဳသင့္ပါသည္။ 
+>သတိပြုရန်အချက်မှာ အချို့နိုင်ငံများတွင် Torrent အသုံးပြုမှုကို ဥပဒေအရ တင်းကြပ်စွာတားမြစ်ထားသည်ဖြစ်၏။ သို့ဖြစ်ပါ၍ Popcorn Time အားအသုံးပြုမည်ဆိုပါက မိမိနေထိုင်သည့်နိုင်ငံ၏ ဥပဒေသက်ရောက်မှုများဖြင့် ဆင်ခြင်အသုံးပြုရန်လိုအပ်ပါသည်။
+အခြားနည်းလမ်းအားဖြင့် [ivacy](https://www.ivacy.com/buy-vpn/) ကဲ့သို့သော Torrent အသုံးပြုမှုအတွက်ရည်ရွယ်၍ ဝန်ဆောင်မှုပေးသည့် VPN များကိုတွဲဖက်အသုံးပြုသင့်ပါသည်။ 
 
-_Popcorn Time တြင္မ်ားစြာေသာ ဆင္တူdomains မ်ားလည္းရွိသည္။
-ေအာက္တြင္ျပထားေသာ ပံုတြင္ၾကည့္နိုင္ပါသည္။_
+_Popcorn Time တွင်များစွာသော ဆင်တူdomains များလည်းရှိသည်။
+အောက်တွင်ပြထားသော ပုံတွင်ကြည့်နိုင်ပါသည်။_
 
 
 ![photo](https://pbs.twimg.com/media/CiANgO8XEAETorA.jpg "Popcorn Time infographic")
 
 ---
 
-## **Popcorn Time Installation ျပဳလုပ္ျခင္း**
+## **Popcorn Time Installation ပြုလုပ်ခြင်း**
 
 
-## **အဆင့္ ၁**
+## **အဆင့် ၁**
 
-ဦးစြာ ယခု [လင့္](https://popcorntime.sh/linux) သို႕သြား၍ မိမိအသံုးျပဳေသာ linux system၏ architecture အမ်ိဳးအစားကိုေရြးခ်ယ္ျပီး ေဒါင္းလုတ္ရယူပါ။ 
-ထို႔ေနာက္ installationျပဳလုပ္ရာတြင္ Data files မ်ားထားသိုရန္ system root ေအာက္ရွိ `/opt` Directoryထဲမွာ ေအာက္ပါ **command** ျဖင့္ Directory အသစ္ေဆာက္ပါ​မည္။
+ဦးစွာ ယခု [လင့်](https://popcorntime.sh/linux) သို့သွား၍ မိမိအသုံးပြုသော linux system၏ architecture အမျိုးအစားကိုရွေးချယ်ပြီး ဒေါင်းလုတ်ရယူပါ။ 
+ထို့နောက် installationပြုလုပ်ရာတွင် Data files များထားသိုရန် system root အောက်ရှိ `/opt` Directoryထဲမှာ အောက်ပါ **command** ဖြင့် Directory အသစ်ဆောက်ပါမည်။
 ```bash
 sudo mkdir /opt/popcorntime
 ```
 
-ေဒါင္းလုတ္ရယူထားေသာ Homeေအာက္ရွိ Downloads Directory ေအာက္သို႕သြားပါမည္။ 
+ဒေါင်းလုတ်ရယူထားသော Homeအောက်ရှိ Downloads Directory အောက်သို့သွားပါမည်။ 
 ```bash
 cd ~/Downloads
 ```
-ယခင္ ေဒါင္းလုတ္ျပဳလုပ္ထားေသာ Popcon Time tar.xz archive ဖိုင္အား ေအာက္ပါ **command** ျဖင့္ အသစ္ေဆာက္လုပ္ထားသည့္ `opt/popcorntime` Directory ေအာက္သို႔ ျဖည္ခ်ထည့္သြင္းပါမည္။
+ယခင် ဒေါင်းလုတ်ပြုလုပ်ထားသော Popcon Time tar.xz archive ဖိုင်အား အောက်ပါ **command** ဖြင့် အသစ်ဆောက်လုပ်ထားသည့် `opt/popcorntime` Directory အောက်သို့ ဖြည်ချထည့်သွင်းပါမည်။
 sudo tar Jxf Popcorn-Time-* -C /opt/popcorntime
 
-##  **အဆင့္ ၂**
+##  **အဆင့် ၂**
 
-ဆက္လက္၍ **Popcorn Time** အား Systemအတြင္းရွိ မိမိနွင့္တကြ အျခားUsersမ်ားမွ **command**ျဖင့္ ေခၚယူအသံုးျပဳနိုင္ေအာင္ ျပဳလုပ္ပါမည္။
+ဆက်လက်၍ **Popcorn Time** အား Systemအတွင်းရှိ မိမိနှင့်တကွ အခြားUsersများမှ **command**ဖြင့် ခေါ်ယူအသုံးပြုနိုင်အောင် ပြုလုပ်ပါမည်။
 ```bash
 ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
 ```
-## **အဆင့္ ၃**
-ေယဘူယ်အားျဖင့္ **Popcorn Time Installation** ျပီးေျမာက္ပါျပီ။ သို႔ေသာ္ `terminal` မွမဟုတ္ဘဲ Desktop Application အေနျဖင့္ **Application Menu** မွအသံုးျပဳနိုင္ေအာင္ ျပဳလုပ္ပါမည္။ 
-၎အတြက္ **Desktop Entry** ျပဳလုပ္ဖို႕လိုပါသည္။
-ဦးစြာ **Nano text editor** ကိုအသံုးျပဳ၍ `/usr/share/applications` Directory ထဲတြင္ `popcorntime.desktop` အမည္ျဖင့္ fileေဆာက္လုပ္ရပါမည္။
+## **အဆင့် ၃**
+ယေဘူယျအားဖြင့် **Popcorn Time Installation** ပြီးမြောက်ပါပြီ။ သို့သော် `terminal` မှမဟုတ်ဘဲ Desktop Application အနေဖြင့် **Application Menu** မှအသုံးပြုနိုင်အောင် ပြုလုပ်ပါမည်။ 
+၎င်းအတွက် **Desktop Entry** ပြုလုပ်ဖို့လိုပါသည်။
+ဦးစွာ **Nano text editor** ကိုအသုံးပြု၍ `/usr/share/applications` Directory ထဲတွင် `popcorntime.desktop` အမည်ဖြင့် fileဆောက်လုပ်ရပါမည်။
 
-_(**Nano** အစား မိမိႏွစ္သက္ရာ Text Editor ကိုအသံုးျပဳနိုင္ပါသည္။)_
+_(**Nano** အစား မိမိနှစ်သက်ရာ Text Editor ကိုအသုံးပြုနိုင်ပါသည်။)_
 
-`terminal` ထဲတြင္ ေအာက္ပါ command ကိုရိုက္၍ ျပဳလုပ္ပါမည္။
+`terminal` ထဲတွင် အောက်ပါ command ကိုရိုက်၍ ပြုလုပ်ပါမည်။
 ```bash
 sudo nano /usr/share/applications/popcorntime.desktop
 ```
-ထို့႔ေနာက္ ေအာက္ပါ စာေၾကာင္းမ်ားအား ျဖည့္သြင္းရပါမည္။
+ထို့နောက် အောက်ပါ စာကြောင်းများအား ဖြည့်သွင်းရပါမည်။
 ```bash
 [Desktop Entry]
 Version = 1.0
@@ -84,13 +84,13 @@ Exec = /usr/bin/Popcorn-Time
 Icon = /opt/popcorntime/popcorn.png
 Categories = Application;
 ```
-ျပီးပါက `Ctrl+X` နွိပ္ျပီး `Y` key ကို `enter` ၍ **Save** ျပဳလုပ္ပါ။
-ထို႔ေနာက္ ျဖည့္သြင္းခဲ့ေသာ `Icon` ေနရာတြင္အသံုးျပဳမည့္ PNG Image ဖုိင္အား ေအာက္ပါ `command` ကိုရိုက္၍ ေဒါင္းလုတ္ျပဳလုပ္ျပီး ထည့္သြင္းရပါမည္။
+ပြီးပါက `Ctrl+X` နှိပ်ပြီး `Y` key ကို `enter` ၍ **Save** ပြုလုပ်ပါ။
+ထို့နောက် ဖြည့်သွင်းခဲ့သော `Icon` နေရာတွင်အသုံးပြုမည့် PNG Image ဖိုင်အား အောက်ပါ `command` ကိုရိုက်၍ ဒေါင်းလုတ်ပြုလုပ်ပြီး ထည့်သွင်းရပါမည်။
 ```bash
 sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
 ```
-**Installation** ျပဳလုပ္ျခင္းျပီးဆံုးပါျပီ။
-ေအာက္ပါအတိုင္း Search box မွတဆင့္စတင္အသံုးျပဳနိုင္ပါျပီ။
+**Installation** ပြုလုပ်ခြင်းပြီးဆုံးပါပြီ။
+အောက်ပါအတိုင်း Search box မှတဆင့်စတင်အသုံးပြုနိုင်ပါပြီ။
 
 ![photo](https://4bds6hergc-flywheel.netdna-ssl.com/wp-content/uploads/2018/09/popcorn-time-ubuntu-menu.jpg "Search Box")
 
