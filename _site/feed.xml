@@ -3,50 +3,165 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://fossmyanmar.github.io//</link>
-    <atom:link href="http://fossmyanmar.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jul 2015 23:06:53 +0630</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2015 23:06:53 +0630</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>https://fossmyanmar.org//</link>
+    <atom:link href="https://fossmyanmar.org//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 May 2026 12:28:53 -0500</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 12:28:53 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+    <item>
+        <title>How to Install Popcorn Time on Ubuntu!</title>
+        <description>&lt;h1 id=&quot;popcorn-time-for-ubuntu-&quot;&gt;&lt;strong&gt;&lt;em&gt;Popcorn Time for Ubuntu&lt;/em&gt;&lt;/strong&gt; !&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png&quot; alt=&quot;icon&quot; title=&quot;Popcorn Time for Ubuntu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Popcorn Time သည် &lt;strong&gt;&lt;em&gt;Netflix&lt;/em&gt;&lt;/strong&gt; ကိုမှီငြိမ်းထားေ
+သာ &lt;strong&gt;torrent&lt;/strong&gt; streaming applicton ဖြစ်သည်။
+၎င်းသည် &lt;strong&gt;open source application&lt;/strong&gt; တစ်ခုဖြစ်၏။&lt;/p&gt;
+
+&lt;p&gt;၎င်း၏အားသာချက်များမှာ&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;ပုံမှန်ကဲ့သို့ &lt;strong&gt;torrent&lt;/strong&gt; video များအား ဒေါင်းလုတ်ပြုလုပ်ချိန်ကိုစောင့်ဆိုင်းပြီးမှသာ ကြည့်ရှုရခြင်းမျိုးမဟုတ်ဘဲ &lt;strong&gt;&lt;em&gt;YouTube&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;Netflix&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;openload&lt;/em&gt;&lt;/strong&gt; တို့ကဲ့သို့ တိုက်ရိုက်နီးပါး &lt;strong&gt;&lt;em&gt;stream&lt;/em&gt;&lt;/strong&gt; ကြည့်ရှုနိုင်ခြင်းဖြစ်သည်။&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ပို၍ကောင်းမွန်သော အချက်မှာ &lt;strong&gt;ကြော်ငြာ&lt;/strong&gt; များမပါရှိခြင်းဖြစ်သည်။&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;၎င်းတွင် Movies, TV series, Anamie အစရှိသဖြင့်ကဏ္ဍများ စုံလင်စွာပါရှိပါသည်။&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;အားနည်းချက်များမှာမူ&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;torrent&lt;/strong&gt; ကိုအသုံးပြုထားသဖြင့် ထပ်ဆင့်ပေးပို့သူ(seeds)နည်းသော Moviesများအတွက် အဆင်ပြေကောင်းမွန်စွာကြည့်ရှုနိုင်မည်မဟုတ်ပါ။&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seedsနည်းသော Moviesများကို ၎င်းတွင်ပါရှိသော&lt;strong&gt;Magnet link&lt;/strong&gt;မှတဆင့် &lt;code&gt;qbittorrent&lt;/code&gt; ကဲ့သို့သော torrent software application များဖြင့် ဒေါင်းလုတ်ပြုလုပ်နိုင်ပါသေးသည်။&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seeds လုံးဝမရှိသော ဖိုင်များကိုမူ ဒေါင်းလုတ်ရယူနိုင်မည်မဟုတ်ပါ။&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;သတိပြုရန်အချက်မှာ အချို့နိုင်ငံများတွင် Torrent အသုံးပြုမှုကို ဥပဒေအရ တင်းကြပ်စွာတားမြစ်ထားသည်ဖြစ်၏။ သို့ဖြစ်ပါ၍ Popcorn Time အားအသုံးပြုမည်ဆိုပါက မိမိနေထိုင်သည့်နိုင်ငံ၏ ဥပဒေသက်ရောက်မှုများဖြင့် ဆင်ခြင်အသုံးပြုရန်လိုအပ်ပါသည်။
+အခြားနည်းလမ်းအားဖြင့် &lt;a href=&quot;https://www.ivacy.com/buy-vpn/&quot;&gt;ivacy&lt;/a&gt; ကဲ့သို့သော Torrent အသုံးပြုမှုအတွက်ရည်ရွယ်၍ ဝန်ဆောင်မှုပေးသည့် VPN များကိုတွဲဖက်အသုံးပြုသင့်ပါသည်။&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Popcorn Time တွင်များစွာသော ဆင်တူdomains များလည်းရှိသည်။
+အောက်တွင်ပြထားသော ပုံတွင်ကြည့်နိုင်ပါသည်။&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CiANgO8XEAETorA.jpg&quot; alt=&quot;photo&quot; title=&quot;Popcorn Time infographic&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;popcorn-time-installation-ပြုလုပ်ခြင်း&quot;&gt;&lt;strong&gt;Popcorn Time Installation ပြုလုပ်ခြင်း&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;အဆင့်-၁&quot;&gt;&lt;strong&gt;အဆင့် ၁&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;ဦးစွာ ယခု &lt;a href=&quot;https://popcorntime.sh/linux&quot;&gt;လင့်&lt;/a&gt; သို့သွား၍ မိမိအသုံးပြုသော linux system၏ architecture အမျိုးအစားကိုရွေးချယ်ပြီး ဒေါင်းလုတ်ရယူပါ။ 
+ထို့နောက် installationပြုလုပ်ရာတွင် Data files များထားသိုရန် system root အောက်ရှိ &lt;code&gt;/opt&lt;/code&gt; Directoryထဲမှာ အောက်ပါ &lt;strong&gt;command&lt;/strong&gt; ဖြင့် Directory အသစ်ဆောက်ပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo mkdir /opt/popcorntime
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ဒေါင်းလုတ်ရယူထားသော Homeအောက်ရှိ Downloads Directory အောက်သို့သွားပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cd ~/Downloads
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ယခင် ဒေါင်းလုတ်ပြုလုပ်ထားသော Popcon Time tar.xz archive ဖိုင်အား အောက်ပါ &lt;strong&gt;command&lt;/strong&gt; ဖြင့် အသစ်ဆောက်လုပ်ထားသည့် &lt;code&gt;opt/popcorntime&lt;/code&gt; Directory အောက်သို့ ဖြည်ချထည့်သွင်းပါမည်။
+sudo tar Jxf Popcorn-Time-* -C /opt/popcorntime&lt;/p&gt;
+
+&lt;h2 id=&quot;အဆင့်-၂&quot;&gt;&lt;strong&gt;အဆင့် ၂&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;ဆက်လက်၍ &lt;strong&gt;Popcorn Time&lt;/strong&gt; အား Systemအတွင်းရှိ မိမိနှင့်တကွ အခြားUsersများမှ &lt;strong&gt;command&lt;/strong&gt;ဖြင့် ခေါ်ယူအသုံးပြုနိုင်အောင် ပြုလုပ်ပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;အဆင့်-၃&quot;&gt;&lt;strong&gt;အဆင့် ၃&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;ယေဘူယျအားဖြင့် &lt;strong&gt;Popcorn Time Installation&lt;/strong&gt; ပြီးမြောက်ပါပြီ။ သို့သော် &lt;code&gt;terminal&lt;/code&gt; မှမဟုတ်ဘဲ Desktop Application အနေဖြင့် &lt;strong&gt;Application Menu&lt;/strong&gt; မှအသုံးပြုနိုင်အောင် ပြုလုပ်ပါမည်။ 
+၎င်းအတွက် &lt;strong&gt;Desktop Entry&lt;/strong&gt; ပြုလုပ်ဖို့လိုပါသည်။
+ဦးစွာ &lt;strong&gt;Nano text editor&lt;/strong&gt; ကိုအသုံးပြု၍ &lt;code&gt;/usr/share/applications&lt;/code&gt; Directory ထဲတွင် &lt;code&gt;popcorntime.desktop&lt;/code&gt; အမည်ဖြင့် fileဆောက်လုပ်ရပါမည်။&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(&lt;strong&gt;Nano&lt;/strong&gt; အစား မိမိနှစ်သက်ရာ Text Editor ကိုအသုံးပြုနိုင်ပါသည်။)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;terminal&lt;/code&gt; ထဲတွင် အောက်ပါ command ကိုရိုက်၍ ပြုလုပ်ပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo nano /usr/share/applications/popcorntime.desktop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ထို့နောက် အောက်ပါ စာကြောင်းများအား ဖြည့်သွင်းရပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;[Desktop Entry]
+Version = 1.0
+Type = Application
+Terminal = false
+Name = Popcorn Time
+Exec = /usr/bin/Popcorn-Time
+Icon = /opt/popcorntime/popcorn.png
+Categories = Application;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ပြီးပါက &lt;code&gt;Ctrl+X&lt;/code&gt; နှိပ်ပြီး &lt;code&gt;Y&lt;/code&gt; key ကို &lt;code&gt;enter&lt;/code&gt; ၍ &lt;strong&gt;Save&lt;/strong&gt; ပြုလုပ်ပါ။
+ထို့နောက် ဖြည့်သွင်းခဲ့သော &lt;code&gt;Icon&lt;/code&gt; နေရာတွင်အသုံးပြုမည့် PNG Image ဖိုင်အား အောက်ပါ &lt;code&gt;command&lt;/code&gt; ကိုရိုက်၍ ဒေါင်းလုတ်ပြုလုပ်ပြီး ထည့်သွင်းရပါမည်။&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Installation&lt;/strong&gt; ပြုလုပ်ခြင်းပြီးဆုံးပါပြီ။
+အောက်ပါအတိုင်း Search box မှတဆင့်စတင်အသုံးပြုနိုင်ပါပြီ။&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://4bds6hergc-flywheel.netdna-ssl.com/wp-content/uploads/2018/09/popcorn-time-ubuntu-menu.jpg&quot; alt=&quot;photo&quot; title=&quot;Search Box&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;ref:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itsfoss.com/popcorn-time-ubuntu-linux/&quot;&gt;It’s FOSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;LINUX CONFIG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Sep 2018 07:35:00 -0500</pubDate>
+        <link>https://fossmyanmar.org//ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</link>
+        <guid isPermaLink="true">https://fossmyanmar.org//ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</guid>
+        
+        
+        <category>Ubuntu</category>
+        
+    </item>
     
     <item>
         <title>LRC – Linux Resource Center Resource to Door!</title>
-        <description>&lt;p&gt;&lt;strong&gt;LRC&lt;/strong&gt; ဆိုတာကို ဘယ္သူေတြ မွတ္မိလဲ။
-စကားမစပ္ LRC – Local Resources Centre (Myanmar)​ လဲ LRC လို႔ေခၚတယ္။ အဲတာကို ေျပာတာမဟုတ္ပါဘူး။&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;LRC&lt;/strong&gt; ဆိုတာကို ဘယ်သူတွေ မှတ်မိလဲ။
+စကားမစပ် LRC – Local Resources Centre (Myanmar) လဲ LRC လို့ခေါ်တယ်။ အဲတာကို ပြောတာမဟုတ်ပါဘူး။&lt;/p&gt;
 
-&lt;p&gt;အရင္တုန္းက ကြ်န္ေတာ္တို႔ Linux Resource Center ဆိုၿပီး လုပ္ခဲ့ၾကတာပါ။
-မိမိႏွစ္သက္ရာ OS ကို National CD မွာေတာင္ ဝယ္မရတဲ့ အေျခအေနမွာ မွ်ေဝဖို႔ ႀကိဳးစားခဲ့ၾကတာေပါ့။&lt;/p&gt;
+&lt;p&gt;အရင်တုန်းက ကျွန်တော်တို့ Linux Resource Center ဆိုပြီး လုပ်ခဲ့ကြတာပါ။
+မိမိနှစ်သက်ရာ OS ကို National CD မှာတောင် ဝယ်မရတဲ့ အခြေအနေမှာ မျှဝေဖို့ ကြိုးစားခဲ့ကြတာပေါ့။&lt;/p&gt;
 
-&lt;p&gt;အခုေခတ္မွာေတာ့ Ubuntu ေခြ Fedora ေခြ CentOS ေခြ RedHat ေခြေတြကို လြယ္လြယ္ကူကူ ဝယ္လို႔ရေနပါၿပီ။ ဒါေပမယ့္ Update မျဖစ္တာ Architect မစုံတာ သူတို႔ မသိပါဘူး။ version အစုံလည္း မရွိပါဘူး။ Video Tutorial ေတြ Guide ေရးေပးတဲ့ Website ေတြ Wiki ေတြဆိုတာလည္း အင္တာနက္ရမွ အသုံးျပဳႏိုင္တာပါ။ ဒီအတြက္ LRC ရွိမယ္ဆိုရင္ ဒါေတြကို Internet Traffic မရွိပဲ သုံးႏိုင္ပါလိမ့္မယ္။&lt;/p&gt;
+&lt;p&gt;အခုခေတ်မှာတော့ Ubuntu ခွေ Fedora ခွေ CentOS ခွေ RedHat ခွေတွေကို လွယ်လွယ်ကူကူ ဝယ်လို့ရနေပါပြီ။ ဒါပေမယ့် Update မဖြစ်တာ Architect မစုံတာ သူတို့ မသိပါဘူး။ version အစုံလည်း မရှိပါဘူး။ Video Tutorial တွေ Guide ရေးပေးတဲ့ Website တွေ Wiki တွေဆိုတာလည်း အင်တာနက်ရမှ အသုံးပြုနိုင်တာပါ။ ဒီအတွက် LRC ရှိမယ်ဆိုရင် ဒါတွေကို Internet Traffic မရှိပဲ သုံးနိုင်ပါလိမ့်မယ်။&lt;/p&gt;
 
-&lt;p&gt;အဲအတြက္
-LRC ေလးေတြ ျပန္လုပ္ရင္ ေကာင္းမလား
-LRC ေတြလုပ္မယ္ဆိုရင္&lt;/p&gt;
+&lt;p&gt;အဲအတွက်
+LRC လေးတွေ ပြန်လုပ်ရင် ကောင်းမလား
+LRC တွေလုပ်မယ်ဆိုရင်&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;၁) Storage အတြက္ External HDD ေတာ့ အနည္းဆုံး ကုန္က်ပါမယ္။ Internet ဆိုင္လို ေကာ္ဖီဆိုင္လိုေနရာေတြက ဝိုင္ဖိုင္ေတြဆိုရင္ ပါဝင္ဖြင့္ထားတဲ့အခ်ိန္ရပါမယ္။&lt;/li&gt;
-  &lt;li&gt;၂) File Server လိုထားမယ္ဆိုရင္ Pi ထပ္လိုပါမယ္။&lt;/li&gt;
-  &lt;li&gt;၃) ဆိုင္ေတြ ေနရာေတြက လက္ခံသလား တာဝန္ယူသလား ပူးေပါင္းပါဝင္ ကူညီမလား ဆိုတာရွိပါတယ္။&lt;/li&gt;
+  &lt;li&gt;၁) Storage အတွက် External HDD တော့ အနည်းဆုံး ကုန်ကျပါမယ်။ Internet ဆိုင်လို ကော်ဖီဆိုင်လိုနေရာတွေက ဝိုင်ဖိုင်တွေဆိုရင် ပါဝင်ဖွင့်ထားတဲ့အချိန်ရပါမယ်။&lt;/li&gt;
+  &lt;li&gt;၂) File Server လိုထားမယ်ဆိုရင် Pi ထပ်လိုပါမယ်။&lt;/li&gt;
+  &lt;li&gt;၃) ဆိုင်တွေ နေရာတွေက လက်ခံသလား တာဝန်ယူသလား ပူးပေါင်းပါဝင် ကူညီမလား ဆိုတာရှိပါတယ်။&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;သို႔မဟုတ္
-Door 2 Door Delivery လုပ္မလား စဥ္းစားရပါမယ္။
-အိမ္တိုင္ရာေရာက္ ပို႔ေပးၿပီး တေခြကို ၁၀၀၀ ထက္မပိုတဲ့ႏႈန္းနဲ႔ အျမန္ဆုံးပို႔ေပးႏိုင္ဖို႔ ႀကိဳးစားၾကည့္ၾကပါမယ္။&lt;/p&gt;
+&lt;p&gt;သို့မဟုတ်
+Door 2 Door Delivery လုပ်မလား စဉ်းစားရပါမယ်။
+အိမ်တိုင်ရာရောက် ပို့ပေးပြီး တခွေကို ၁၀၀၀ ထက်မပိုတဲ့နှုန်းနဲ့ အမြန်ဆုံးပို့ပေးနိုင်ဖို့ ကြိုးစားကြည့်ကြပါမယ်။&lt;/p&gt;
 
-&lt;p&gt;LRC ရဲ႕ အားသာခ်က္က LRC ရွိတဲ့ ေနရာေတြ ေၾကျငာထားမွာျဖစ္လို႔ ႀကဳံတဲ့ေနရာ ဝင္ၿပီး ယူသြားယုံပါပဲ။ ကုန္က်စားရိတ္ကို LRC နဲ႔ ဆိုင္ေတြဘက္က က်ခံရပါလိမ့္မယ္။&lt;/p&gt;
+&lt;p&gt;LRC ရဲ့ အားသာချက်က LRC ရှိတဲ့ နေရာတွေ ကြေငြာထားမှာဖြစ်လို့ ကြုံတဲ့နေရာ ဝင်ပြီး ယူသွားယုံပါပဲ။ ကုန်ကျစားရိတ်ကို LRC နဲ့ ဆိုင်တွေဘက်က ကျခံရပါလိမ့်မယ်။&lt;/p&gt;
 
-&lt;p&gt;D2D ရဲ႕ အားသာခ်က္က စားရိတ္အမ်ားႀကီး မကုန္ပဲ အိမ္တိုင္ရာေရာက္ ပို႔ေပးပါလိမ့္မယ္။ ကုန္က်စားရိတ္ကို အသုံးျပဳသူက က်ခံရပါလိမ့္မယ္။ အားနည္းခ်က္ကေတာ့ နယ္ကလာတဲ့လူဆိုရင္ LRC က အဆင္ေျပတဲ့အခ်ိန္ေလး လမ္းႀကဳံဝင္ယူသြားရုံပါပဲ။ D2D ဆိုရင္ လက္ခံမယ့္ အိမ္ေတြ ေငြေခ်ေပးမယ့္ လူေတြ လိုအပ္ေနပါလိမ့္မယ္။&lt;/p&gt;
+&lt;p&gt;D2D ရဲ့ အားသာချက်က စားရိတ်အများကြီး မကုန်ပဲ အိမ်တိုင်ရာရောက် ပို့ပေးပါလိမ့်မယ်။ ကုန်ကျစားရိတ်ကို အသုံးပြုသူက ကျခံရပါလိမ့်မယ်။ အားနည်းချက်ကတော့ နယ်ကလာတဲ့လူဆိုရင် LRC က အဆင်ပြေတဲ့အချိန်လေး လမ်းကြုံဝင်ယူသွားရုံပါပဲ။ D2D ဆိုရင် လက်ခံမယ့် အိမ်တွေ ငွေချေပေးမယ့် လူတွေ လိုအပ်နေပါလိမ့်မယ်။&lt;/p&gt;
 
-&lt;p&gt;တကယ္လို႔ တခုခုက ပိုေကာင္းတဲ့ အေၾကာင္းျပခ်က္ရွိရင္ ဒီဟာေတြထက္ ေကာင္းတဲ့ အႀကံရွိရင္ ေပးေစခ်င္ပါတယ္။ LRC လုပ္ဖို႔ကို စိတ္ဝင္စားတဲ့လူေတြရွိတယ္ဆုိလည္း ဘယ္အပိုင္းက ဘယ္လိုကူညီေပးႏိုင္တယ္ဆိုတာေလးပါ ေရးခဲ့ေပးႏိုင္ပါတယ္။&lt;/p&gt;
+&lt;p&gt;တကယ်လို့ တခုခုက ပိုကောင်းတဲ့ အကြောင်းပြချက်ရှိရင် ဒီဟာတွေထက် ကောင်းတဲ့ အကြံရှိရင် ပေးစေချင်ပါတယ်။ LRC လုပ်ဖို့ကို စိတ်ဝင်စားတဲ့လူတွေရှိတယ်ဆိုလည်း ဘယ်အပိုင်းက ဘယ်လိုကူညီပေးနိုင်တယ်ဆိုတာလေးပါ ရေးခဲ့ပေးနိုင်ပါတယ်။&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://fossmyanmar.github.io/images/slide1.jpg&quot; alt=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; title=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://fossmyanmar.org/images/slide1.jpg&quot; alt=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; title=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Apr 2015 21:05:13 +0630</pubDate>
-        <link>http://fossmyanmar.github.io//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
-        <guid isPermaLink="true">http://fossmyanmar.github.io//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
+        <pubDate>Mon, 20 Apr 2015 09:35:13 -0500</pubDate>
+        <link>https://fossmyanmar.org//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
+        <guid isPermaLink="true">https://fossmyanmar.org//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
         
         
-        <category>lrc</category>
+        <category>LRC</category>
         
     </item>
     
@@ -58,18 +173,18 @@ Door 2 Door Delivery လုပ္မလား စဥ္းစားရပါမ�
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 02 Feb 2015 21:05:13 +0630</pubDate>
-        <link>http://fossmyanmar.github.io//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
-        <guid isPermaLink="true">http://fossmyanmar.github.io//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
+        <pubDate>Mon, 02 Feb 2015 08:35:13 -0600</pubDate>
+        <link>https://fossmyanmar.org//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
+        <guid isPermaLink="true">https://fossmyanmar.org//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
         
         
         <category>jekyll</category>

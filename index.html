@@ -238,15 +238,30 @@ layout : home
 					{% assign photo = member.photo %}
 					{% endif %}
 					<img src="images/members/{{ photo }}" alt="{{ member.team }}">
-					<div class="team-overlay">
-						<h3>{{ member.name }}</h3>
-						<span> {{ member.teams }}</span>
-						<ul class="social">
-							<li><a href="{{ member.facebook }}" class="fa fa-facebook" target="_blank"></a></li>
-							<li><a href="{{ member.twitter }}" class="fa fa-twitter" target="_blank"></a></li>
-							<li><a href="{{ member.github }}" class="fa fa-github" target="_blank"></a></li>
-						</ul>
-					</div> <!-- /.team-overlay -->
+						<div class="team-overlay">
+							<h3>{{ member.name }}</h3>
+							<span> {{ member.teams }}</span>
+							<ul class="social">
+								{% assign facebook = member.facebook | default: "" | strip %}
+								{% assign twitter = member.twitter | default: "" | strip %}
+								{% assign github = member.github | default: "" | strip %}
+								{% if facebook != "" %}
+								{% unless facebook contains " " %}
+								<li><a href="{{ facebook }}" class="fa fa-facebook" target="_blank"></a></li>
+								{% endunless %}
+								{% endif %}
+								{% if twitter != "" %}
+								{% unless twitter contains " " %}
+								<li><a href="{{ twitter }}" class="fa fa-twitter" target="_blank"></a></li>
+								{% endunless %}
+								{% endif %}
+								{% if github != "" %}
+								{% unless github contains " " %}
+								<li><a href="{{ github }}" class="fa fa-github" target="_blank"></a></li>
+								{% endunless %}
+								{% endif %}
+							</ul>
+						</div> <!-- /.team-overlay -->
 				</div> <!-- /.member-thumb -->
 			</div> <!-- /.team-member -->
 			{% endfor %}
