@@ -5,27 +5,43 @@ jQuery(document).ready(function($) {
 
 	/************** Toggle *********************/
     // Cache selectors
-    var lastId,
-        topMenu = $(".menu-first, .menu-responsive"),
-        topMenuHeight = topMenu.outerHeight()+15,
-        // All list items
-        menuItems = topMenu.find("a"),
-        // Anchors corresponding to menu items
-        scrollItems = menuItems.map(function(){
-          var item = $($(this).attr("href"));
-          if (item.length) { return item; }
-        });
+	    var lastId,
+	        topMenu = $(".menu-first, .menu-responsive"),
+	        topMenuHeight = (topMenu.outerHeight() || 0)+15,
+	        // All list items
+	        menuItems = topMenu.find("a"),
+	        // Anchors corresponding to menu items
+	        scrollItems = menuItems.map(function(){
+	          var href = $(this).attr("href");
+	          if (!href || href.charAt(0) !== "#" || href === "#") { return; }
+	          var item = $(href);
+	          if (item.length) { return item; }
+	        });
 
     // Bind click handler to menu items
     // so we can get a fancy scroll animation
-    menuItems.click(function(e){
-      var href = $(this).attr("href"),
-          offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-      $('html, body').stop().animate({ 
-          scrollTop: offsetTop
-      }, 300);
-      e.preventDefault();
-    });
+	    menuItems.click(function(e){
+	      var href = $(this).attr("href"),
+	          target;
+
+	      if (!href) { return; }
+	      if (href === "#") {
+	        $('html, body').stop().animate({
+	            scrollTop: 0
+	        }, 300);
+	        e.preventDefault();
+	        return;
+	      }
+	      if (href.charAt(0) !== "#") { return; }
+
+	      target = $(href);
+	      if (!target.length) { return; }
+
+	      $('html, body').stop().animate({
+	          scrollTop: target.offset().top-topMenuHeight+1
+	      }, 300);
+	      e.preventDefault();
+	    });
 
     // Bind to scroll
     $(window).scroll(function(){
@@ -44,11 +60,11 @@ jQuery(document).ready(function($) {
        if (lastId !== id) {
            lastId = id;
            // Set/remove active class
-           menuItems
-             .parent().removeClass("active")
-             .end().filter("[href=#"+id+"]").parent().addClass("active");
-       }                   
-    });
+	           menuItems
+	             .parent().removeClass("active")
+	             .end().filter("[href='#"+id+"']").parent().addClass("active");
+	       }                   
+	    });
 
 
 
