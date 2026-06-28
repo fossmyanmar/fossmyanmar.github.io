@@ -97,19 +97,27 @@
     return resolved.href;
   }
 
+  function isSafeHashUrl(url) {
+    return /^#[A-Za-z0-9_-]+$/.test(url);
+  }
+
+  function isHttpsUrl(url) {
+    return /^https:\/\//i.test(url);
+  }
+
   function safeUrl(url, isImage, context) {
     var trimmed = String(url || '').trim();
     var baseUrl = context && context.rawUrl ? context.rawUrl : rawChapterBase;
     if (!trimmed) {
       return '';
     }
-    if (isImage && /^https:\/\//i.test(trimmed)) {
+    if (trimmed.charAt(0) === '#') {
+      return !isImage && isSafeHashUrl(trimmed) ? trimmed : '';
+    }
+    if (isImage && isHttpsUrl(trimmed)) {
       return trimmed.indexOf(rawRepoBase) === 0 ? trimmed : '';
     }
-    if (!isImage && /^https:\/\//i.test(trimmed)) {
-      return trimmed;
-    }
-    if (!isImage && /^#[A-Za-z0-9_-]+$/.test(trimmed)) {
+    if (!isImage && isHttpsUrl(trimmed)) {
       return trimmed;
     }
     if (isRelativeUrl(trimmed)) {
@@ -131,14 +139,14 @@
     });
     out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
-    out = out.replace(/!\[([^\]]*)\]\(([^\s)]+)(?:\s+&quot;[^&]+&quot;)?\)/g, function (_, alt, href) {
+    out = out.replace(/!\[([^\]]*)\]\(((?:[^\s()]+|\([^()]*\))*)(?:\s+&quot;[^&]+&quot;)?\)/g, function (_, alt, href) {
       var safe = safeUrl(href, true, context);
       if (!safe) {
         return alt;
       }
       return '<img src="' + escapeHtml(safe) + '" alt="' + alt + '">';
     });
-    out = out.replace(/\[([^\]]+)\]\(([^\s)]+)(?:\s+&quot;[^&]+&quot;)?\)/g, function (_, label, href) {
+    out = out.replace(/\[([^\]]+)\]\(((?:[^\s()]+|\([^()]*\))*)(?:\s+&quot;[^&]+&quot;)?\)/g, function (_, label, href) {
       var safe = safeUrl(href, false, context);
       if (!safe) {
         return label;
