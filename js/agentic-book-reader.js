@@ -100,7 +100,13 @@
   function safeUrl(url, isImage, context) {
     var trimmed = String(url || '').trim();
     var baseUrl = context && context.rawUrl ? context.rawUrl : rawChapterBase;
-    if (/^https:\/\//i.test(trimmed)) {
+    if (!trimmed) {
+      return '';
+    }
+    if (isImage && /^https:\/\//i.test(trimmed)) {
+      return trimmed.indexOf(rawRepoBase) === 0 ? trimmed : '';
+    }
+    if (!isImage && /^https:\/\//i.test(trimmed)) {
       return trimmed;
     }
     if (!isImage && /^#[A-Za-z0-9_-]+$/.test(trimmed)) {
@@ -116,8 +122,13 @@
   }
 
   function renderInline(text, context) {
+    var codeSpans = [];
     var out = escapeHtml(text);
-    out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+    out = out.replace(/`([^`]+)`/g, function (_, code) {
+      var token = 'AGENTIC_CODE_SPAN_' + codeSpans.length + '_TOKEN';
+      codeSpans.push('<code>' + code + '</code>');
+      return token;
+    });
     out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
     out = out.replace(/!\[([^\]]*)\]\(([^\s)]+)(?:\s+&quot;[^&]+&quot;)?\)/g, function (_, alt, href) {
@@ -133,6 +144,9 @@
         return label;
       }
       return '<a href="' + escapeHtml(safe) + '">' + label + '</a>';
+    });
+    out = out.replace(/AGENTIC_CODE_SPAN_(\d+)_TOKEN/g, function (_, index) {
+      return codeSpans[Number(index)] || '';
     });
     return out;
   }
@@ -226,7 +240,7 @@
         return;
       }
       if (codeOpen) {
-        html.push(escapeHtml(line) + '\n');
+        html.push(escapeHtml(line));
         return;
       }
       if (/^\s*$/.test(line)) {
@@ -329,8 +343,13 @@
         continue;
       }
       if (el.tagName === 'A') {
-        el.setAttribute('target', '_blank');
-        el.setAttribute('rel', 'noopener noreferrer');
+        if (/^#[A-Za-z0-9_-]+$/.test(el.getAttribute('href') || '')) {
+          el.removeAttribute('target');
+          el.removeAttribute('rel');
+        } else {
+          el.setAttribute('target', '_blank');
+          el.setAttribute('rel', 'noopener noreferrer');
+        }
       }
       if (el.tagName === 'IMG' && !el.getAttribute('alt')) {
         el.setAttribute('alt', '');
