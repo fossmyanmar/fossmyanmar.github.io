@@ -3,11 +3,151 @@
   <channel>
     <title></title>
     <description></description>
-    <link>https://fossmyanmar.org//</link>
-    <atom:link href="https://fossmyanmar.org//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 May 2026 12:28:53 -0500</pubDate>
-    <lastBuildDate>Thu, 28 May 2026 12:28:53 -0500</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Jul 2026 10:02:08 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 10:02:08 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+    <item>
+        <title>Inside the Agent Runtime စာအုပ်ကို FOSS Myanmar မှ ဖတ်နိုင်ပါပြီ</title>
+        <description>&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/agentic-book-reader.css&quot; /&gt;
+
+&lt;div class=&quot;agentic-book-reader&quot;&gt;
+  &lt;section class=&quot;agentic-book-hero&quot;&gt;
+    &lt;h2&gt;Inside the Agent Runtime ကို မြန်မာ Developer များအတွက် ဖတ်ရလွယ်အောင် စုစည်းထားသော အခမဲ့ လမ်းညွှန်&lt;/h2&gt;
+
+    &lt;p&gt;
+      ဒီ repo က Pi / Hermes စနစ်အခြေခံပြီး &lt;strong&gt;Agent Runtime&lt;/strong&gt; ကို အသုံးပြုရာ ပုံမှန်လုပ်ဆောင်ချက်များ၊ tool call flow, runtime loop, context pressure, crash recovery, bounded concurrency, debugging စတာတွေကို တစ်ခုချင်း ခွဲခြမ်းရှင်းပြထားတဲ့ စာအုပ်ပုံစံ project ဖြစ်ပါတယ်။
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      FOSS Myanmar စာဖတ်သူများအနေဖြင့် စာအုပ်ကို GitHub သို့မသွားဘဲ ဒီစာမျက်နှာပေါ်မှ chapter တစ်ခန်းချင်း ဖတ်နိုင်ရန် reader ကိုထည့်ထားသည်။ သို့သော် source of truth သည် စာအုပ် repository ထဲတွင်ပဲရှိသည်။ စာအုပ် update ဖြစ်လျှင် ဒီ reader က GitHub raw Markdown ကို ပြန်ဖတ်သောကြောင့် content ကို သီးခြား copy မလုပ်ထားပါ။
+    &lt;/p&gt;
+
+    &lt;div class=&quot;agentic-book-actions&quot;&gt;
+      &lt;a href=&quot;https://github.com/htooayelwinict/Inside_the_Agent_Runtime&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Book repository&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/htooayelwinict/Inside_the_Agent_Runtime/tree/main/book/chapters&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Chapter source files&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;agentic-book-layout&quot; aria-label=&quot;Inside the Agent Runtime Book embedded reader&quot;&gt;
+    &lt;nav class=&quot;agentic-book-toc&quot; aria-label=&quot;Inside the Agent Runtime Book chapters&quot;&gt;
+      &lt;h3&gt;မာတိကာ&lt;/h3&gt;
+      &lt;div id=&quot;agenticBookChapterList&quot;&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;article class=&quot;agentic-book-panel&quot;&gt;
+      &lt;div class=&quot;agentic-book-toolbar&quot;&gt;
+        &lt;div&gt;
+          &lt;p class=&quot;agentic-book-status&quot; id=&quot;agenticBookStatus&quot;&gt;Ready&lt;/p&gt;
+          &lt;h3 class=&quot;agentic-book-title&quot; id=&quot;agenticBookChapterTitle&quot;&gt;Loading chapter&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;agentic-book-actions&quot;&gt;
+          &lt;button class=&quot;agentic-book-button&quot; id=&quot;agenticBookPrevious&quot; type=&quot;button&quot;&gt;Previous&lt;/button&gt;
+          &lt;button class=&quot;agentic-book-button&quot; id=&quot;agenticBookNext&quot; type=&quot;button&quot;&gt;Next&lt;/button&gt;
+          &lt;a id=&quot;agenticBookSourceLink&quot; href=&quot;https://github.com/htooayelwinict/Inside_the_Agent_Runtime&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Source&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;agentic-book-body&quot; id=&quot;agenticBookChapterBody&quot;&gt;
+        &lt;p&gt;ခဏစောင့်ပါ။ Chapter ကို GitHub မှ fetch လုပ်နေသည်။&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;/section&gt;
+
+  &lt;p&gt;
+    ဤ reader သည် JavaScript မရသော browser တွင် မဖွင့်နိုင်ပါက စာအုပ် repository မှ တိုက်ရိုက်ဖတ်နိုင်သည်။
+    &lt;a href=&quot;https://github.com/htooayelwinict/Inside_the_Agent_Runtime&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Inside the Agent Runtime on GitHub&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;/js/inside-the-agent-runtime-reader.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 19 Jul 2026 01:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/ai/opensource/education/2026/07/19/inside-the-agent-runtime/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/ai/opensource/education/2026/07/19/inside-the-agent-runtime/</guid>
+        
+        
+        <category>AI</category>
+        
+        <category>OpenSource</category>
+        
+        <category>Education</category>
+        
+    </item>
+    
+    <item>
+        <title>Agentic AI အခမဲ့လမ်းညွှန်ကို FOSS Myanmar မှ ဖတ်နိုင်ပါပြီ</title>
+        <description>&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/agentic-book-reader.css&quot; /&gt;
+
+&lt;div class=&quot;agentic-book-reader&quot;&gt;
+  &lt;section class=&quot;agentic-book-hero&quot;&gt;
+    &lt;h2&gt;Agentic AI ကို မြန်မာ Developer များအတွက် ဖတ်ရလွယ်အောင် စုစည်းထားသော အခမဲ့လမ်းညွှန်&lt;/h2&gt;
+
+    &lt;p&gt;
+      Agentic AI ဆိုသောစကားလုံးသည် ယနေ့ခေတ်တွင် buzzword ဖြစ်လာသည်။ သို့သော် developer တစ်ယောက်အတွက် အရေးကြီးသည်မှာ hype ကိုလိုက်ရန်မဟုတ်။ Agent တစ်ခုက ဘာမြင်သလဲ၊ ဘာ tool သုံးခွင့်ရှိသလဲ၊ ဘယ်အချိန်ရပ်သလဲ၊ အမှားဖြစ်လျှင် ဘယ် trace ကိုကြည့်မလဲဆိုသော အင်ဂျင်နီယာမျက်စိရရန်ဖြစ်သည်။
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;strong&gt;Agentic AI အခမဲ့လမ်းညွှန်&lt;/strong&gt; သည် မြန်မာ Developer များအတွက် Agent, Tool Calling, Context Engineering, RAG, MCP, Sandbox, Coding Agent, DevOps Automation စသောအကြောင်းအရာများကို practical mental model အဖြစ်ရှင်းထားသော open-source book project ဖြစ်သည်။
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      FOSS Myanmar စာဖတ်သူများအနေဖြင့် စာအုပ်ကို GitHub သို့မသွားဘဲ ဒီစာမျက်နှာပေါ်မှ chapter တစ်ခန်းချင်း ဖတ်နိုင်ရန် reader ကိုထည့်ထားသည်။ သို့သော် source of truth သည် စာအုပ် repository ထဲတွင်ပဲရှိသည်။ စာအုပ် update ဖြစ်လျှင် ဒီ reader က GitHub raw Markdown ကို ပြန်ဖတ်သောကြောင့် content ကို သီးခြား copy မလုပ်ထားပါ။
+    &lt;/p&gt;
+
+    &lt;div class=&quot;agentic-book-actions&quot;&gt;
+      &lt;a href=&quot;https://github.com/htooayelwinict/Agentic-AI-Book&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Book repository&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/htooayelwinict/Agentic-AI-Book/tree/main/book/chapters&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Chapter source files&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;agentic-book-layout&quot; aria-label=&quot;Agentic AI Book embedded reader&quot;&gt;
+    &lt;nav class=&quot;agentic-book-toc&quot; aria-label=&quot;Agentic AI Book chapters&quot;&gt;
+      &lt;h3&gt;မာတိကာ&lt;/h3&gt;
+      &lt;div id=&quot;agenticBookChapterList&quot;&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;article class=&quot;agentic-book-panel&quot;&gt;
+      &lt;div class=&quot;agentic-book-toolbar&quot;&gt;
+        &lt;div&gt;
+          &lt;p class=&quot;agentic-book-status&quot; id=&quot;agenticBookStatus&quot;&gt;Ready&lt;/p&gt;
+          &lt;h3 class=&quot;agentic-book-title&quot; id=&quot;agenticBookChapterTitle&quot;&gt;Loading chapter&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;agentic-book-actions&quot;&gt;
+          &lt;button class=&quot;agentic-book-button&quot; id=&quot;agenticBookPrevious&quot; type=&quot;button&quot;&gt;Previous&lt;/button&gt;
+          &lt;button class=&quot;agentic-book-button&quot; id=&quot;agenticBookNext&quot; type=&quot;button&quot;&gt;Next&lt;/button&gt;
+          &lt;a id=&quot;agenticBookSourceLink&quot; href=&quot;https://github.com/htooayelwinict/Agentic-AI-Book&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Source&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;agentic-book-body&quot; id=&quot;agenticBookChapterBody&quot;&gt;
+        &lt;p&gt;ခဏစောင့်ပါ။ Chapter ကို GitHub မှ fetch လုပ်နေသည်။&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;/section&gt;
+
+  &lt;p&gt;
+    ဤ reader သည် JavaScript မရသော browser တွင် မဖွင့်နိုင်ပါက စာအုပ် repository မှ တိုက်ရိုက်ဖတ်နိုင်သည်။
+    &lt;a href=&quot;https://github.com/htooayelwinict/Agentic-AI-Book&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Agentic AI Book on GitHub&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;/js/agentic-book-reader.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 28 Jun 2026 01:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/ai/opensource/education/2026/06/28/agentic-ai-book/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/ai/opensource/education/2026/06/28/agentic-ai-book/</guid>
+        
+        
+        <category>AI</category>
+        
+        <category>OpenSource</category>
+        
+        <category>Education</category>
+        
+    </item>
     
     <item>
         <title>How to Install Popcorn Time on Ubuntu!</title>
@@ -116,8 +256,8 @@ Categories = Application;
 
 </description>
         <pubDate>Sat, 29 Sep 2018 07:35:00 -0500</pubDate>
-        <link>https://fossmyanmar.org//ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</link>
-        <guid isPermaLink="true">https://fossmyanmar.org//ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</guid>
+        <link>http://0.0.0.0:4000/ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/ubuntu/2018/09/29/Popcorn-Time-for-Ubuntu/</guid>
         
         
         <category>Ubuntu</category>
@@ -154,11 +294,11 @@ Door 2 Door Delivery လုပ်မလား စဉ်းစားရပါမ�
 
 &lt;p&gt;တကယ်လို့ တခုခုက ပိုကောင်းတဲ့ အကြောင်းပြချက်ရှိရင် ဒီဟာတွေထက် ကောင်းတဲ့ အကြံရှိရင် ပေးစေချင်ပါတယ်။ LRC လုပ်ဖို့ကို စိတ်ဝင်စားတဲ့လူတွေရှိတယ်ဆိုလည်း ဘယ်အပိုင်းက ဘယ်လိုကူညီပေးနိုင်တယ်ဆိုတာလေးပါ ရေးခဲ့ပေးနိုင်ပါတယ်။&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://fossmyanmar.org/images/slide1.jpg&quot; alt=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; title=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://0.0.0.0:4000images/slide1.jpg&quot; alt=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; title=&quot;Foss Myanmar Events at BarCamp Yangon 2015&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Apr 2015 09:35:13 -0500</pubDate>
-        <link>https://fossmyanmar.org//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
-        <guid isPermaLink="true">https://fossmyanmar.org//lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
+        <link>http://0.0.0.0:4000/lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/lrc/2015/04/20/LRC-Linux-Resource-Center-Resource-to-Door/</guid>
         
         
         <category>LRC</category>
@@ -183,8 +323,8 @@ Door 2 Door Delivery လုပ်မလား စဉ်းစားရပါမ�
 
 </description>
         <pubDate>Mon, 02 Feb 2015 08:35:13 -0600</pubDate>
-        <link>https://fossmyanmar.org//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
-        <guid isPermaLink="true">https://fossmyanmar.org//jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
+        <link>http://0.0.0.0:4000/jekyll/update/2015/02/02/welcome-to-fossmyanmar/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/jekyll/update/2015/02/02/welcome-to-fossmyanmar/</guid>
         
         
         <category>jekyll</category>
